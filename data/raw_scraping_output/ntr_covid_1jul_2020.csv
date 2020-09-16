@@ -1,0 +1,364 @@
+,publications,idFull,dateRegistered,interventions,url,contact_city,criteriaIn,contact,title,timePoints,criteriaEx,grouping,userId,idString,userIdOld,contact_postalCode,registrant,hypothesis,diseases,outcomePrimary,notes,idOld,dateStop,studyType,key,idEs,isrctn,outcomeSecondary,titleScientific,sponsors,idOldFull,randomised,masking,contact_title,ipd,issueingBody,control,timestamp,pubStatus,multicenter,contact_address,idSource,summary,ipdDescription,acronym,targetSize,groupTypes,dateStart,status,id,mecApproval,fundingSources,contact_country
+73,,NL8633,2020-05-13,Enrolled patients will either receive convalescent thawed fresh frozen plasma 1 unit (250-325 ml) (=treatment group) or standard thawed fresh frozen plasma 1 unit (250-325 ml) (=control group),,,"1.	Maximal 3 days hospitalized at plasma infusion. 
+2.	Age ≥ 18 years and ≤ 85 years
+3.	SARS-CoV-2 infection: confirmed by PCR (BAL, sputum, nasal and/or pharyngeal swap) not longer than 7 days before.
+4.	Symptoms not expected to lead to IC transfer within 6 hours of study plasma administration
+5.	Written informed consent including storing of specimen for future testing
+","{'firstName': 'Jaap Jan ', 'lastName': 'Zwaginga', 'institute': 'Leiden University Medical Center', 'phone': '0715264006', 'email': 'j.j.zwaginga@lumc.nl'}","A randomized, double blinded clinical trial of convalescent plasma compared to standard plasma for treatment of hospitalized non-ICU patients with COVID-19 infections","days 1,2,3,7,14,21,28,56 ","A potential subject who meets any of the following criteria will be excluded from participation in this study:
+
+1.	Accompanying diseases other than COVID-19 with an expected survival time of less than 6 months
+2.	Chronic severe pulmonary dysfunction like obstructive lung disease (COPD), Gold stage 4; severe emphysema; or lung fibrosis with usual interstitial pneumonia (IUP) pattern 
+3.	Chronic heart failure NYHA >= 3 and/or pre-existing reduction of left ventricular ejection fraction to ≤ 30%  for which among others e.g. strict fluid restriction is needed 
+4.	Clinical diagnosis of circulatory overload for which active therapy (like increased doses of diuretics) is initiated    
+5.	Clinical judgement of deterioration in oxygenation (e.g. more than 2 L increase in additonal O2 by nose tube), respiratory rates ( e.g. more than 5 / min increase) in the 2 hours before the planned randomisation / plasma infusion 
+6.	Signs of severe coagulopathy : thrombocytopenia by consumption ( <100 x 10e9/l) or prolongation of the PT (+3 sec) , PTT (+ 5 sec)  
+7.	Any history of severe adverse reactions  to plasma proteins
+8.	Known deficiency of immunoglobulin A
+9.	Pregnancy
+10.	Breastfeeding women
+11.	Psychiatric or cognitive illness or recreational drug/alcohol use that in the opinion of the principal investigator, would affect subject safety and/or compliance
+",Parallel,KTvGiyhvTjN6oNtM50Xw6Rm1Aoy1,8633.0,,,"{'firstName': 'Jaap Jan ', 'lastName': 'Zwaginga', 'search': 'Zwaginga, Jaap Jan  (Leiden University Medical Center)', 'phone': '0715264006', 'userId': 'KTvGiyhvTjN6oNtM50Xw6Rm1Aoy1', 'email': 'j.j.zwaginga@lumc.nl'}",Convalescent plasma of ex-COVID-19 patients will improve outcome of recently admitted patients with active disease but not (yet) at ICU.,COVID-19,"Ordinal outcome at day 14 of all cause mortality, mechanical ventilation, ICU admission and long duration of hospital stay (6 days or more), with less than 6 hospitalized days as reference category.",,,2021-05-01,Interventional,-M7ChYcPA5eWKlObe7_U,,,"assessment of the primairy ordinal outcome at day 21, 28 and 56; combined outcome of death and ICU admission at day 14, 21, 28 and 56; duration of hospitalization in days; length of stay in ICU; and ICU mortality.
+- The following safety parameters will be assessed during this trial: deterioration of respiratory, circulatory or otherwise the clinical status during transfusion; transfusion transmitted infections.
+- The time until negative SARS-CoV-2 PCR (nasal/ pharyngeal swab) ",Convalescent plasma compared to standard plasma for treatment of hospitalized non-ICU patients with COVID-19 infections,Leiden University Medical Center,,True,Double,,No,METC LDD (Leiden Den Haag Delft),Active,,published,True,,NL73791.058.20  / P20.057,"This is a randomized, prospective, multicenter, double blinded phase 2/3 trial comparing efficacy and safety  of  anti-SARS-CoV-2 convalescent plasma vs standard plasma in maximally 3 days hospitalized COVID-19 patients that are not at or bound to be referred to the ICU.
+
+In the described context of possible benefits but still uncertain risks, we on purpose perform a double blinded phase 2/3  RCT to investigate both safety and effectivity of early in the disease course administrated convalescent plasma in patients with COVID-19. The latter patients are sick enough to warrant hospitalization but have not (yet) experienced overwhelming disease including a systemic inflammatory response, sepsis, and/or ARDS warranting ventilation and (eminent) ICU referral.  
+
+Study population:
+This study will enrol adult patients with confirmed COVID-19 infection, who have been recently  (not more than 3 days) hospitalized, but are not admitted to the ICU or expected to go to the ICU within 6 hours of first plasma administration.
+
+Intervention:
+Enrolled patients will either receive convalescent thawed fresh frozen plasma 1 unit (250-325 ml) (=treatment group) or standard thawed fresh frozen plasma 1 unit (250-325 ml) (=control group)
+
+Study endpoints: 
+The estimated benefit in regard of the primary endpoint is a shift in the distribution of the scores towards less mortality, mechanical ventilation, ICU admission and shorter than the presently mean hospital stay (see figure). The primary endpoint will be analyzed using a Bayesian proportional odds model. Posterior probabilities will start to be computed after 20 patients have completed their follow-up and will be computed on regular basis afterwards. 
+The endpoints can be summarized as following:
+= Ordinal outcome of all cause mortality, mechanical ventilation, ICU admission and long duration of hospital stay (6 days or more), with less than 6 hospitalized days as reference category will be used for the primary outcome. The outcome will be primarily assessed at day 14.
+- The following other efficacy parameters will be assessed as a secondary outcome: assessment of the primairy ordinal outcome at day 21, 28 and 56; combined outcome of death and ICU admission at day 14, 21, 28 and 56; duration of hospitalization in days; length of stay in ICU; and ICU mortality.
+- The following safety parameters will be assessed during this trial: deterioration of respiratory, circulatory or otherwise the clinical status during transfusion; transfusion transmitted infections.
+- The time until negative SARS-CoV-2 PCR (nasal/ pharyngeal swab) 
+
+",,COV-PLAS,430.0,"2 or more arms, randomized",2020-05-13,Open for patient inclusion,8633,True,none,
+87,,NL8609,2020-05-11,"1.	Placebo treatment
+2.	BCG vaccination
+3.	BCG vaccination + oral bisphosphonate supplementation (alendronic acid)
+4.	BCG vaccination + MMR vaccine
+5.	MMR vaccine alone
+",,,"•	Adult (18-50 years of age);
+•	Male or female;
+•	Healthy;
+•	Written informed consent
+","{'firstName': 'Priya ', 'lastName': 'Debisarun', 'institute': 'Radboudumc', 'phone': '0243613889', 'email': 'priya.debisarun@radboudumc.nl'}",Enhancing the BCG-induced trained immunity response by addition of bisphosphonate or MMR vaccine: a possible preventive approach against COVID-19 (BCG-PLUS),"0, 28 days","•	Known allergy to (components of), or any other contraindication to, the BCG vaccine, MMR vaccine, or alendronic acid.
+•	Known (history of) active or latent Mycobacterium tuberculosis or with another mycobacterial species;
+•	Prior BCG vaccination;
+•	Acute illness 2 weeks prior to the study or (suspicion of) active infection;
+•	Pregnancy;
+•	Chronic use of any systemic drugs other than oral contraceptives;
+•	Use of NSAIDs less than 4 weeks prior to start of the study;
+•	Vaccination in the past 3 months or expected vaccination during the study period, independent of the type of vaccination;
+•	Medical history associated with immunodeficiency.
+",Not applicable,DMh6Ntqy9iTmhInKebFXASUmYP22,8609.0,,,"{'firstName': 'Priya ', 'lastName': 'Debisarun', 'search': 'Debisarun, Priya  (Radboudumc)', 'phone': '0243613889', 'userId': 'DMh6Ntqy9iTmhInKebFXASUmYP22', 'email': 'priya.debisarun@radboudumc.nl'}","Oral bisphosphonate supplementation or the MMR vaccine can be used as immune potentiators when simultaneously administered with BCG, to further amplify the BCG-induced trained immunity response and maximize potential protective effects against COVID-19. ","COVID-19, SARS-CoV-2",The main study parameter is the fold-increase in production of pro-inflammatory cytokines by PBMCs/monocytes following vaccination.,,,2020-06-08,Interventional,-M73BRETk9IvUmwtzazT,,,Epigenetic and metabolic changes in monocytes between the aforementioned treatment groups,Enhancing the BCG-induced trained immunity response by addition of bisphosphonate or MMR vaccine: a possible preventive approach against COVID-19 (BCG-PLUS),Radboudumc,,True,None,,Undecided,METC Arnhem-Nijmegen,Placebo,,published,,,2020-6564,"Rationale: There is currently no specific treatment or vaccine for SARS-CoV-2. Induction of trained immunity by BCG vaccination is a promising non-specific preventive measure, but not all individuals respond equally strongly to it. It is therefore important to maximize the protective potential of BCG. This study will investigate the efficacy of bisphosphonates and the MMR vaccine to enhance trained immunity responses to BCG vaccination.
+Objective: To investigate the effect of bisphosphonates and the MMR vaccine on BCG-induced trained immunity.
+Study design: Explorative randomized controlled trial.
+Study population: Healthy volunteers aged 18-50 years old.
+Intervention (if applicable): The intervention groups are as follows: 
+1.	Placebo treatment
+2.	BCG vaccination
+3.	BCG vaccination + oral bisphosphonate supplementation (alendronic acid)
+4.	BCG vaccination + MMR vaccine
+5.	MMR vaccine alone
+Main study parameters/endpoints: The main study parameter is the fold-increase in production of pro-inflammatory cytokines by PBMCs/monocytes following vaccination.
+Nature and extent of the burden and risks associated with participation, benefit and group relatedness: The expected risk of participation is very low. All vaccines and treatments are approved medications and no adverse interactions are expected. BCG can interfere with standard tuberculin skin test for tuberculosis, but an alternative is available (quantiferon). The participants will visit the outpatient clinic twice for blood donations. They will undergo no other invasive procedures for study purposes.  
+",,BCG-PLUS,100.0,"2 or more arms, randomized",2020-05-25,Planned,8609,False,NWO-Spinoza ,
+110,,NL8578,2020-05-02,"All COVID-19 patients with an indication for admittance to the ICU department will be included and will (after informed consent) be rondomised to receive a bolus of alkaline phosphatase of 1000iU, followed by 9000 iU the same day. For the 3 consecutive days 10.000iU/day on top of regular care. ",,,"Patients with proved or considered Sars-CoV-2 infection admitted to the ICU with type 1 or 2 respiratory failure despite supplemental oxygen.
+
+Sars-CoV-2 infection based on: highly clinical suspicion on admission and/or positive PCR test on nasopharynx swab or sputum and/or a CT imaging of the chest compatible with COVID-19 + type 1 or type 2 respiratory failure despite supplemental oxygen that indicates airway support/ICU admittance and meeting any of the following criteria: .
+- SpO2 <90% or PaO2 < 60 mmHg despite FiO2 >60%
+- Clinical evidence of respiratory distress (RR > 25 breaths/minute)
+- Respiratory acidosis (pH< 7.35)","{'firstName': 'stephan', 'lastName': 'papendorp', 'institute': 'RKZ', 'phone': '0251-265976', 'email': 'spapendorp@rkz.nl'}",Alkaline phosphatase for reducing systemic inflammatory response syndrome (SIRS) in patients with Sars-CoV-2 infection and acute respiratory insufficiency (COVID 19),1 year,"- Inclusion in another interventional clinical trial
+- Age < 18
+- Age > 80
+- Patients who are pregnant or lactating
+- Patients expected to have fatal disease within 24 hours
+- Patients who are already on dialysis (Renal Replacement Therapy, RRT) or a decision has been made to initiate RRT within 24 hours after planned start of study drug administration
+- Patients who have advanced chronic liver disease confirmed by a Child-Pugh C
+- Patients who are having an known history of immune system that has been impaired by disease, such as patients with HIV and with a CD4 count of less than 200 cells/mm, neutropenic patients (<0.5 x 109/l) or medical treatment with immunosuppressive effects
+- Patients with active haematological malignancy",Parallel,204E5yuxY8RjHedvYiuLvjzicry2,8578.0,,,"{'firstName': 'stephan', 'lastName': 'papendorp', 'search': 'papendorp, stephan (RKZ)', 'phone': '0251-265976', 'userId': '204E5yuxY8RjHedvYiuLvjzicry2', 'email': 'spapendorp@rkz.nl'}","Our hypothesis is that critical ill COVID-19 patients suffer more from their own immune response against the virus, than from the viral infection itself. Alkaline phosphatase (RESCAP®) has proven to reduce SIRS reactions by neutralizing the inflammatory response in various medical conditions, like sepsis induced acute kidney injury and ischemia-reperfusion reactions in cardiothoracic surgery. Furthermore, endogenous alkaline phosphatase (AP) is highly expressed on type II lung alveolar (surfactant producing) cells and is thought to stabilize the alveolar barrier. In acute inflammation, endogenous AP is lost from the cells after binding to its substrate. Replenishing AP might restore the alveolar barrier and combat subsequent SIRS and secondary organ failure.",COVID-19,Duration of mechanical ventilation,,,2022-07-13,Interventional,-M6K7WIUhpkFa0GWsWff,,,"(1) ICU Mortality
+(2) Number (%) of patients with acute kidney injury (AKI) stage 2/3 (KDIGO criteria)
+(3) Number (%) of ventilated patients
+(4) Number (%) of patients in need for reintubation
+(5) Safety (according to chapter 8)
+(6) Values of inflammatory markers (e.g. macrophages, neutrophils, lymphocytes and their inflammatory products (TNF-α, IL-6, IL-8, IL-10))",Alkaline phosphatase for reducing systemic inflammatory response syndrome (SIRS) in patients with Sars-CoV-2 infection and acute respiratory insufficiency (COVID 19),Rode Kruis ziekenhuis Beverwijk,,True,Double,,Undecided,METC VUMC,Placebo,,published,True,,METC2020248,"Our hypothesis is that critical ill COVID-19 patients suffer more from their own immune response against the virus, than from the viral infection itself. Alkaline phosphatase (RESCAP®) has proven to reduce SIRS reactions by neutralizing the inflammatory response in various medical conditions, like sepsis induced acute kidney injury and ischemia-reperfusion reactions in cardiothoracic surgery. Furthermore, endogenous alkaline phosphatase (AP) is highly expressed on type II lung alveolar (surfactant producing) cells and is thought to stabilize the alveolar barrier. In acute inflammation, endogenous AP is lost from the cells after binding to its substrate. Replenishing AP might restore the alveolar barrier and combat subsequent SIRS and secondary organ failure.
+
+The objective is to assess the safety and preliminary efficacy of AP in reducing the inflammatory reaction in COVID-19 patients and thereby shorten time on mechanical ventilation or prevent the need for mechanical ventilation in COVID-19 patients.
+
+This will be done in a randomised multicentre prospective interventional clinical trial. 
+
+All COVID-19 patients with an indication for admittance to the ICU department will be included and will (after informed consent) be rondomised to receive a bolus of alkaline phosphatase of 1000iU, followed by 9000 iU the same day. For the 3 consecutive days 10.000iU/day on top of regular care. 
+
+Main study parameters/endpoints:
+(1) Duration of mechanical ventilation
+(2) ICU mortality
+(3) Number (%) of patients with acute kidney injury (AKI) stage 2/3 (KDIGO)
+(4) Concentration of pro-inflammatory cytokines",,COVID-RESCAP,124.0,"2 or more arms, randomized",2020-07-13,Planned,8578,True,NONE,
+111,,NL8577,2020-05-06,"All participants will receive at the different time intervals through our custom-made Digital Cardiac Counselling platform different questionnaires related to the different known risk factors for the perioperative cardiac care and measured outcomes. Additional to above participants, the intervention group will receive through the Digital Cardiac Counselling platform different modules with E-counselling for risk factors evaluated in the questionnaires. Additional to known risk factors a Covid-19 module will be used as well.
+Digital counselling
+
+The digital counselling modules for intervention group are described below:
+ 
+-Screening for reduced physical fitness. If there are signs for a decreased physical condition we will refer the patient, after consultation, for a digital intake with our physiotherapist. The patients then get access to a digital module with information and videos of physical exercise training. The patient gets a trainings schedule and we will contact the patient after about 1 and 3 weeks to check their progression and to give additional advice when needed. 
+ 
+-Screening for smoking. If the patient smokes and is motivated to quit smoking, we will refer, after consultation, for a digital intake with one of our stop smoking nurses. Then, a digital and telephone supported counselling will start after an informed and shared decision making with the nurse. When needed, supportive medication can be prescribed. 
+ 
+-Screening for malnutrition and obesity. If there are signs of malnutrition (MUST-score) or obesity (BMI >30) we will refer the patient, after consultation, for a digital intake with a dietician. The patients then get access to a digital module with information about a healthy diet. We will contact the patient ever 2 weeks in case of malnutrition and every 4 weeks in case of obesity. In the case of malnutrition the dietician can prescribe protein rich nutrition supplements when needed. 
+ 
+-Screening for anxiety and depression. If there are signs for anxiety and depression, we will refer the patient, after consultation, for a digital intake with a psychological assistant. The patients then get access to a digital platform with information and exercises. The assistant will guide the patient and will provide digital support after 1 and 3 weeks. 
+ 
+-Screening for elevated pulmonary risk score. When patients have an elevated risk score for adverse pulmonary complications (pulmonary risk score for cardiac surgery patients questionnaire) we will refer the patient, after consultation, for a digital intake with our physiotherapist. The patients then get access to a digital module with information and videos of pulmonary exercise training. We will send a inspiratory muscle trainer (IMT) to the patient to perform daily exercises. The patient gets a trainings schedule and we will contact the patient after about 1 and 3 weeks to check their progression and to give additional advice when needed. 
+",,,"-Patients who are on the waiting list for any elective cardiac operation and are older than 18 years old (adult cardiac surgery patients) during the Covid-19 pandemic
+-Patients accepted for any elective cardiac operation and are older than 18 years during the Covid-19 pandemic (adult cardiac surgery patients)","{'firstName': 'Peyman', 'lastName': 'Sardari Nia', 'institute': 'Maastricht University Medical Center', 'phone': '0031-(0)-43-3875070', 'email': 'peyman.sardarinia@mumc.nl'}",Digital Cardiac Counseling Trial: DCC Trial,"Baseline (T0), pre-operative (T1), after 3 months postoperative (T2), after 6 months postoperative (T3) and after 12 months postoperative (T4)","-Patients who are not able to use digital platforms for various reasons (blindness, illiteracy, neurological deficits, mental inability etc.)
+-Patients who do not have an Internet connection or any digital platform and whose direct family are not able to provide that.",Parallel,BPbqNWsGiNY47f1dcOkoNwnWPhJ3,8577.0,,,"{'firstName': 'Peyman', 'lastName': 'Sardari Nia', 'search': 'Sardari Nia, Peyman (Maastricht University Medical Center)', 'phone': '0031-(0)-43-3875070', 'userId': 'BPbqNWsGiNY47f1dcOkoNwnWPhJ3', 'email': 'peyman.sardarinia@mumc.nl'}",Pre-operative comprehensive digital Cardiac Counseling (prehabilitation) will reduce the cumalative incidence of MACE at 1 year postoperatively in patients operated for a cardiovascular procedure.,Cardiovascular disease,-What is the effect of an interactive Digital Cardiac Counseling platform with E-consulting on cumulative incidence of major adverse cardiovascular events (MACE) at 1 year after the cardiac surgery compared to the control condition (no interactive Digital Cardiac Counseling)?,,,2022-12-31,Interventional,-M6fd5BLUcHDxyrJNn-h,,,"What is the effect of an interactive Digital Cardiac Counseling platform with E-consulting on patient-measured outcomes during treatment delay due to the Covid-19 pandemic measured just before, and 1 year after the cardiac surgery compared to the control condition (no interactive Digital Cardiac Counseling)?
+",Randomized controlled trial of Digital Cardiac Counseling in patients with delayed cardiac surgical treatment due to Covid-19 pandemic (DCC trial),Academic Hospital Maastricht (Academisch Ziekenhuis Maastricht),,True,None,,Undecided,METC azM/UM,Active,,published,,,NL72754.068.20 / METC20-028,"Rationale: 
+Most patients undergoing a cardiovascular procedure need an IC-bed during the hospitalization and therefore it is possible that for the unforeseen future, because of the Covid-19 crisis, many patients will stay on the waiting list for many months to come. There are some studies showing an increased mortality associated with an increased waiting time for the patients on the waiting list for an elective cardiac surgery. However, there is no data on the evolution of the morbidity, the quality of life and the symptomatology of the patients waiting for an elective operation. Also it is not clear whether the period of waiting for an elective cardiovascular operation would impact the morbidity or the mortality of the planned operation at later stage. Furthermore, there is a plethora of studies on risk factors associated with the perioperative morbidity and mortality in general. 
+Therefore, the rationale of the current study is to evaluate whether Digital Cardiac Counseling (DCC) would improve outcomes of the patients waiting for an elective cardiac operation. At the DCC platform, there will be assessments of cardiovascular symptoms, Covid-19 prevention for cardiovascular patients, smoking cessation, anxiety relief, exercise stimulation, pulmonary rehabilitation and diet adjustments. This will be done by means of questionnaires and E-consults. 
+We start this project now because of two reasons. First, the prolonged waiting list due to the Covid pandemic creates the opportunity to use this period for cardiac prehabilitation. Second, it is only recently that we got the possibility to use a digital platform, which is ideal in this period of social distancing. 
+
+Objective: 
+Primary Objective: 
+-What is the effect of an interactive Digital Cardiac Counseling platform with E-consulting on cumulative incidence of major adverse cardiovascular events (MACE) at 1 year after the cardiac surgery compared to the control condition (no interactive Digital Cardiac Counseling)?
+
+Secondary Objective(s): 
+- What is the effect of an interactive Digital Cardiac Counseling platform with E-consulting on patient-measured outcomes during treatment delay due to the Covid-19 pandemic measured just before, and 1 year after the cardiac surgery compared to the control condition (no interactive Digital Cardiac Counseling)?
+
+Study design: 
+Randomized controlled trial
+We will use random permuted block size if technically feasible otherwise with random block sizes of 4, 6, and 8. The randomization will be computer-based and will generate two groups. Both groups will get access to the Digital Cardiac Counseling platform and both groups will complete the same set of validated questionnaires at the same time intervals. The intervention groups will get additional training modules and E-consulting based on the risk assessment retrieved from the completed questionnaires. 
+Study population: 
+The patient population will include any adult patient on the waiting list for any elective cardiovascular operation in MUMC during Covid-19 pandemic.
+
+Intervention: 
+All participants will receive at the different time intervals through our custom-made Digital Cardiac Counseling platform different questionnaires related to the different known risk factors for the perioperative cardiac care and measured outcomes. 
+Additional to above participants in the intervention group will receive through the Digital Cardiac Counseling platform different modules with E-counseling for risk factors evaluated in the questionnaires. Additional to known risk factors a Covid-19 module will be used as well.
+
+Main study parameters/endpoints: 
+The primary endpoint is cumulative incidence of MACE (Major Adverse Cardiovascular Events) at 1 year after cardiac surgery. The primary outcome is the difference in percentage of patients that experienced Mace at 1-year follow-up postoperatively. We expect that approximately 20% of patients in the control group will experience an event. We will include 197 patients per group, or 394 in total, to be able to have 80% power to detect a difference in MACE of 10% between groups in favor of the intervention group, using an alpha of 0.05.
+",,DCC Trial,394.0,"2 or more arms, randomized",2020-05-15,Planned,8577,True,"Department of Cardiothoracic Surgery, Academic Hospital Maastricht",
+141,,NL8547,2020-04-22,BCG-vaccine,,,•	Adult (≥ 60 years) ,"{'firstName': 'Simone', 'lastName': 'Moorlag', 'institute': 'Radboudumc', 'phone': '+31-24-3667218', 'email': 'Simone.Moorlag@radboudumc.nl'}","REDUCING HOSPITAL ADMISSION OF ELDERLY IN SARS-CoV-2 PANDEMIC VIA THE INDUCTION OF TRAINED IMMUNITY BY BACILLUS CALMETTE-GUÉRIN VACCINATION, A RANDOMIZED CONTROLLED TRIAL",6 months,"
+•	Fever (>38 ºC) within the past 24 hours 
+•	Suspicion of current active viral or bacterial infection 
+•	Expected vaccination during the first three months of the study period
+•	Severely immunocompromised subjects. This exclusion category comprises: a) subjects with known infection by the human immunodeficiency virus (HIV-1); b) neutropenic subjects with less than 500 neutrophils/mm3; c) subjects with solid organ transplantation; d) subjects with bone marrow transplantation; e) subjects under chemotherapy; f) subjects with primary immunodeficiency; g) severe lymphopenia with less than 400 lymphocytes/mm3; h) treatment with any immunosuppressant drugs such as anti-cytokine therapies, and treatment with oral or intravenous steroids defined as daily doses of 10mg prednisone or equivalent for longer than 3 months, or probable use of oral or intravenous steroids in the following four weeks 
+•	Active solid or non-solid malignancy or lymphoma within the prior two years
+•	Active participation in another research study that involves BCG administration
+",Parallel,8YuGOesUHaMmHlyUJ1jLwQmeYwl2,8547.0,,,"{'firstName': 'Simone', 'lastName': 'Moorlag', 'search': 'Moorlag, Simone (Radboudumc)', 'phone': '+31-24-3667218', 'userId': '8YuGOesUHaMmHlyUJ1jLwQmeYwl2', 'email': 'Simone.Moorlag@radboudumc.nl'}","We hypothesize that BCG vaccination may reduce hospital admission and improve the clinical course of symptoms of elderly people during the SARS-CoV-2 outbreak.
+",COVID-19,•	SARS-CoV-2 related hospital admission,,,2022-04-18,Interventional,-M5XD6ElDB5CmDUws-t5,,,"•	the duration of hospital admission
+•	the cumulative incidence of documented SARS-CoV-2 infection 
+•	the number of days of self-reported fever (≥38 ºC)
+•	the number of days of self-reported acute respiratory symptoms 
+•	the cumulative incidence of self-reported acute respiratory symptoms
+•	the cumulative incidence of delirium due to SARS-CoV-2
+•	the cumulative incidence of pneumonia, skin infection, urinary tract infection, flu and gastro-intestinal infection
+•	the cumulative incidence of death for any reason
+•	the cumulative incidence of death due to documented SARS-CoV-2 infection
+•	the cumulative incidence of hospital or Intensive Care Admission for any reason
+•	the cumulative incidence of Intensive Care Admission due to documented SARS-CoV-2 infection
+","REDUCING HOSPITAL ADMISSION OF ELDERLY IN SARS-CoV-2 PANDEMIC VIA THE INDUCTION OF TRAINED IMMUNITY BY BACILLUS CALMETTE-GUÉRIN VACCINATION, A RANDOMIZED CONTROLLED TRIAL",Radboudumc,,True,Single,,Undecided,METC,Placebo,,published,True,,NL73430.091.20,"On March 11 2020 the World Health Organization (WHO) declared the coronavirus (SARS-CoV-2) outbreak a pandemic. The number of confirmed cases continues to rise, leading to significant morbidity and mortality worldwide. Although individuals of any age can acquire SARS-CoV-2, adults of middle and older age are most commonly affected. Moreover, recent reports demonstrate that mortality rates rise significantly among patients 60 years and older. Therefore, strategies to prevent SARS-CoV-2 infection or to reduce its clinical consequences in elderly are desperately needed. Bacillus Calmette-Guérin (BCG) vaccine not only protects against tuberculosis, but has also been shown to induce protection against various respiratory infections, including those with a viral aetiology, leading to significant reductions in morbidity and mortality. We hypothesize that BCG vaccination may reduce hospital admission and improve the clinical course of symptoms of elderly people during the SARS-CoV-2 outbreak.
+Objective: Primary objective: to reduce SARS-CoV-2-related hospital admission of community dwelling older persons (≥ 60 years of age). Secondary objective: to reduce the incidence of health symptoms, the duration of hospital admission, hospital or ICU admission for any reason, or death in community dwelling older persons during the SARS-CoV-2 outbreak.
+Study design: A placebo-controlled adaptive multi-centre randomized controlled trial.
+Study population: Elderly people (≥ 60 years of age).
+Intervention: Participants will be randomized between intracutaneous administration of BCG vaccine or placebo in a 1:1 ratio.
+Main study parameters/endpoints: Primary endpoint: SARS-CoV-2 related hospital admission. Secondary endpoints: incidence of symptoms of infectious disease, hospital admission for any reason, duration of hospital admission, SARS-CoV-2 infection, Intensive Care admission, and death.  
+",,BCG-CORONA-ELDERLY,1600.0,"2 or more arms, randomized",2020-04-16,Open for patient inclusion,8547,True,No,
+150,,NL8538,2020-04-17,"Prevent a supine position during sleep by the use of a Sleep Position Trainer, a small wearable device that trains patients to not sleep on their back by using gentle vibrations (1:1 randomization). In both groups sleep position will be continuously registered.",,,"-	Age ≥ 18 years
+-	Admitted to one of our COVID-19 cohort units
+-	PCR confirmed COVID-19
+-	Any form of oxygen therapy (nasal cannula or high-flow nasal oxygen)
+-	Able to independently change from supine to non-supine position
+-	Able to read and speak in the Dutch language
+-	Signed informed-consent
+-	No current indication for mechanical ventilation","{'firstName': 'Vivan', 'lastName': 'Baggen', 'institute': 'Franciscus Gasthuis & Vlietland', 'phone': '0651696541', 'email': 'v.baggen@erasmusmc.nl'}",Sleep position related to hospital length of stay in admitted COVID-19 patients,Admission and hospital discharge.,-	‘Do not intubate’ order,Parallel,fScADvRFIjXaYxbHzNR6zLuKoV22,8538.0,,,"{'firstName': 'Vivan', 'lastName': 'Baggen', 'search': 'Baggen, Vivan (Erasmus MC)', 'phone': '0651696541', 'userId': 'fScADvRFIjXaYxbHzNR6zLuKoV22', 'email': 'v.baggen@erasmusmc.nl'}",Predominantly sleeping in the non-supine position could improve oxygenation and thereby shorten the disease course in admitted COVID-19 patients.,COVID-19,Hospital length of stay (days).,,,2021-04-17,Interventional,-M582frU-SuOKgrlhk9J,,,"-	In-hospital all-cause mortality
+-	ICU admission and intubation rate
+-	ICU admission days
+-	Oxygen requirement during hospital admission (mean and median FiO2)
+-	Percentage of supine sleep time
+-	Change in oxygen saturation (SpO2) during supine sleep time ",Sleep position related to hospital length of stay in admitted COVID-19 patients,None.,,True,None,,Undecided,METC Franciscus Gasthuis & Vlietland ,Placebo,,published,,,Not assigned yet.,"Rationale: Prone positioning improves oxygenation in mechanically ventilated ARDS patients and is currently widely applied in COVID-19 patients in ICUs. Up to 20% of COVID-19 patients on the general ward may require ICU admission for hypoxic respiratory failure and are predominantly admitted during the night. We hypothesize that predominantly sleeping in the non-supine position could improve oxygenation and thereby shorten the disease course.
+Objective: To investigate whether non-supine positioning during the night in COVID-19 patients admitted to the hospital ward shortens hospital length of stay.
+Study design: Randomized, placebo-controlled single-center study.
+Study population: Patients aged ≥ 18 years, admitted to the hospital ward with a proven SARS-CoV-2 infection, suffering from COVID-19.
+Intervention (if applicable): Prevent a supine position during sleep by the use of a Sleep Position Trainer, a small wearable device that trains patients to not sleep on their back by using gentle vibrations (1:1 randomization). In both groups sleep position will be continuously registered.
+Main study parameters/endpoints: Hospital length of stay (days).
+Nature and extent of the burden and risks associated with participation, benefit and group relatedness: Considering the major impact of the COVID-19 pandemic on healthcare systems in the Netherlands but also worldwide, strategies to improve oxygenation and thereby possibly reduce hospital admission days are of major clinical and social importance. Sleep Position Trainers are known to be a safe and patient friendly method of decreasing the proportion of supine sleep time in OSAS patients.",,The PRONE study,342.0,"2 or more arms, randomized",2020-04-17,Planned,8538,,None.,
+165,,NL8523,2020-04-13,"The administration of inhaled isoflurane for sedation, compared to intravenous sedation. In this pilot study, patients will intermittent receive inhaled or intravenous sedation, according to the randomisation scheme.",,,"•	Confirmed or suspected COVID-19 
+•	Respiratory failure requiring mechanical ventilation through an endotracheal tube
+•	Ventilation using a ventilator that is capable of delivering sevoflurane or isoflurane
+•	>18 years of age","{'firstName': 'Jan', 'lastName': 'Dieleman', 'institute': 'UMC Utrecht', 'phone': '+61406982659', 'email': 'j.m.dieleman@umcutrecht.nl'}",Volatile Anaesthetics in COVID-19 – a pilot study,"24, 48, 72 hours, hospital discharge","•	Suspected or proven intracranial hypertension 
+•	Tidal volume (6 ml/kg predicted body weight [PBW]) less than 250 ml
+•	Malignant hyperthermia history, or family risk factors
+•	History of long QT syndrome
+•	Severe liver failure
+•	Previous kidney or liver transplantation
+•	Requirement for extracorporeal mechanical respiratory or circulatory support",Crossover,9Iy2SlUPd1WWYtPIBG1oRjV31XB2,8523.0,,,"{'firstName': 'Jan', 'lastName': 'Dieleman', 'search': 'Dieleman, Jan (University Medical Center Utrecht)', 'phone': '088 7555555', 'userId': '9Iy2SlUPd1WWYtPIBG1oRjV31XB2', 'email': 'j.m.dieleman@umcutrecht.nl'}",Using inhaled volatile anaesthetic agents as the primary sedative during mechanically ventilation in patients with COVID-19-associated ARDS improves gas exchange and ventilatory support requirements,"COVID-19, ARDS","Change in PaO2/FiO2 (P/F) ratio, oxygenation index, and ventilation parameters",,,2020-05-31,Interventional,-M4lp22JSLSQ2EdOLjFA,,,"Safety endpoints: 
+Haemodynamic stability, acute liver injury, acute kidney injury 
+
+Secondary endpoints: 
+In-hospital mortality, P/F ratio and oxygenation index at various time points, time to extubation, length of stay in the ICU, length of stay in the hospital, major complications (sepsis, renal failure, MI, stroke, requirement for ECMO, delirium, atrial fibrillation, and myocardial injury).",Volatile agents for sedation in patients with COVID-19-associated acute respiratory distress syndrome – a pilot study,University Medical Center Utrecht,,True,None,,No,CCMO,Active,,published,,,In preparation,"Rationale: 
+Recent small studies in ARDS patients indicate that the use of volatile anaesthetic agents can improve oxygenation and decrease levels of a marker of epithelial injury and of some inﬂammatory markers, when compared with intravenous sedation. We hypothesize that using inhaled volatile anaesthetic agents as the primary sedative during mechanically ventilation in patients with COVID-19-associated ARDS improves gas exchange, ventilatory support requirements, and time to extubation.
+
+Objective: 
+To investigate the feasibility of inhaled volatile anaesthetic agents in reducing the severity of COVID-19-associated ARDS.
+
+Study design: 
+Single-centre, pragmatic, open-label, double cross-over randomised controlled pilot trial.
+
+Study population: 
+Patients with COVID-19 requiring mechanical ventilation.
+
+Intervention: 
+The administration of inhaled isoflurane for sedation, compared to intravenous sedation. In this pilot study, patients will intermittent receive inhaled or intravenous sedation, according to the randomisation scheme.
+
+Pilot study primary endpoints: 
+Change in PaO2/FiO2 (P/F) ratio, oxygenation index, and ventilation parameters
+
+Safety endpoints: 
+Haemodynamic stability, acute liver injury, acute kidney injury 
+
+Secondary endpoints: 
+In-hospital mortality, P/F ratio and oxygenation index at various time points, time to extubation, length of stay in the ICU, length of stay in the hospital, major complications (sepsis, renal failure, MI, stroke, requirement for ECMO, delirium, atrial fibrillation, and myocardial injury).
+
+Nature and extent of the burden and risks associated with participation, benefit and group relatedness: 
+The burden to the patients is minimal: while this intervention is being tested, patients will be already sedated for mechanical ventilation. Furthermore, only routine care data will be used in this pilot study, and there will be no post-discharge follow-up.
+Because of its common routine use in clinical anaesthesia, there is extensive experience with the use of isoflurane. The risks of the intervention are considered low and are mainly related the potential side effects of isoflurane, with a lowering effect on blood pressure the most likely (and very much controllable) side-effect.",,TBA,20.0,"2 or more arms, randomized",2020-04-26,Planned,8523,,Internal,
+167,,NL8521,2020-04-13,"Three conditions are tested (each lasting 30 min, the ‘measurement period’): 
+1. Oxygen delivery via a nonrebreathing mask (current standard of care) with sufficient inflow of O2 (which does not create PEEP).  
+2. Oxygen delivery via the face mask with zero PEEP in order to test the effect of the mask alone. 
+3. Oxygen delivery via the face mask with PEEP of 7.5 cmH2O in order to test effect of moderate PEEP. ",,,"A subject must meet all of the following criteria:
+- age > 18 years 
+- Positive for Covid-19 (CORADS 5, i.e. highly likely Covid-19 on the low-dose CT scan, or PCR positive nasopharyngeal swab for SARS Coronavirus 2). 
+- Admitted to Amsterdam UMC, location AMC. 
+- A transcutaneous O2 saturation (SpO2) of 90% or less at 5 l/min oxygen administration via nasal canula.
+- Provide informed consent. 
+","{'firstName': 'Joost', 'lastName': 'van den Aardweg', 'institute': 'Amsterdam UMC, location AMC', 'phone': '020-5669111', 'email': 'j.g.vandenaardweg@amsterdamumc.nl'}",Continuous positive airway pressure in severe Covid-19 pneumonia,"After inclusion, there will be a 3 x 30 min measurement episode.","-	Hypercapnia (defined as arterial PCO2 > 6.0 kPa or 45 mmHg)
+-	A history of moderate to severe Chronic Obstructive Pulmonary Disease (COPD, GOLD severity III or IV), restrictive lung disease, or Obesity Hypoventilation Syndrome
+-	Need for intubation or admission to the Intensive Care Unit as determined by the responsible physician
+-	Palliative care 
+-	Reduced consciousness
+-	Vomiting 
+-	Unability to wear the mask due to anatomical / physical restriction (e.g. facial operations; bearded) 
+-	Unable to provide informed consent. 
+
+",Crossover,VdaZHUoWeDW8jqXYevnjjg5oOMH2,8521.0,,,"{'firstName': 'Joost', 'lastName': 'van den Aardweg', 'search': 'van den Aardweg, Joost (Amsterdam UMC, location AMC)', 'phone': '020-5669111', 'userId': 'VdaZHUoWeDW8jqXYevnjjg5oOMH2', 'email': 'j.g.vandenaardweg@amsterdamumc.nl'}","1. The addition of moderate positive end-expiratory pressure (PEEP, 7.5 cmH2O) to high inspiratory fractions of oxygen can either improve oxygenation or reduce respiratory rate, or both, in patients with severe Covid-19 pneumonia
+2. The application of moderate positive end-expiratory pressure (7.5 cmH2O) to mentioned patients is feasible with a face mask, reservoir bag and threshold expiration valve.  
+3. Administration of 100% O2 through a the mentioned face mask (and zero PEEP) improves the oxygenation in patients with severe oxygen-dependent Covid-19 pneumonia as compared with a standard non-rebreathing mask","Corona virus disease 2019 (Covid-19), proven with PCR on nasopharyngeal swab and with matching abnormalities on low-dose CT-scan","A change in the two-dimensional variable (SpO2, RR), the combination of oxygen saturation and respiratory rate.
+SpO2 is measured with a pulse oximeter and RR is derived from the pressure changes in the mouth compartment of the mask. 
+",,,2020-11-08,Interventional,-M4n4I1TGOGUnsrLbNF_,,,"1.	Patient satisfaction score and Borg dyspnoea scale 
+2.     System performance: Stability of O2 delivery and CO2 build-up in the mask during the 30-min recording time (measured as the mean inspiratory PO2 and PCO2, respectively). 
+3.	Respiration: tidal volume, minimal negative pressure in the mouth compartment during inspiration (as a measure of inspiratory work of breathing), end-tidal and mixed-expiratory PO2 and PCO2 (as measures of pulmonary gas exchange).
+4.	Circulation: heart rate 
+5.	Adverse events: painscore, decubitus, CO2 rebreathing, choking, mask malfunction otherwise
+",Continuous positive airway pressure in severe Covid-19 pneumonia: a feasibility and physiological end-point study,Raad van Bestuur van het AMC (Amsterdam),,,None,,No,METC AMC,Not applicable,,published,,,METC2020_091#C2020768,"Rationale: 
+Pneumonia due to SARS-coronavirus 2 (SARS-Cov2, COVID-19) is characterised by bilateral ground-glass opacities comparable with the radiological and clinical characteristics that are often encountered in acute respiratory distress syndrome (ARDS). Patients with COVID-19 pneumonia frequently require high inspiratory oxygen concentrations to avoid hypoxemia. In contrast to ARDS, the compliance of the respiratory system of patients with COVID-19 often remains normal. Therefore, it is postulated that these patients benefit from moderate positive end expiratory pressure (PEEP) to recruit lung tissue and to decrease right-to-left shunt. PEEP can be delivered noninvasively as continuous positive airway pressure (CPAP) via a face mask in conjunction with high inspiratory oxygen fractions. 
+Objective: 
+To evaluate the physiological effects, feasibility, tolerability and safety of CPAP via a face mask in patients with COVID-19 pneumonia requiring high inspired oxygen fractions during spontaneous breathing. 
+Study design: 
+Cross-over phase 1 intervention study. Patients are first monitored during conventional oxygen support via a non-rebreathing mask (standard of care) and are subsequently crossed over to an open-circuit face mask with CPAP 0 cmH2O and the same face mask with CPAP 7.5 cmH2O. Each modality is applied for 30 minutes. 
+Study population: 
+Hospitalised COVID-19 patients with a transcutaneous O2 saturation of 90% or less at 5 l/min oxygen administration via nasal canula.
+Intervention: Delivery of supplemental oxygen via the face mask with inlet for inspired oxygen delivery and outlet with viral/bacterial filter and a PEEP valve that keeps the system under pressure (7.5 cmH2O). 
+Three conditions are tested (each lasting 30 min, the ‘measurement period’): 
+1. Oxygen delivery via a nonrebreathing mask (current standard of care) with sufficient inflow of O2 (which does not create PEEP).  
+2. Oxygen delivery via the face mask with zero PEEP in order to test the effect of the mask alone. 
+3. Oxygen delivery via the face mask with PEEP of 7.5 cmH2O in order to test effect of moderate PEEP. 
+Main study parameters/endpoints: 
+The primary endpoint of the study is a change in the combination of oxygen saturation (measured by pulse oximetry, SpO2) and respiratory rate. The use of this combination of variables is substantiated by a recent study showing that the ratio of SpO2 divided by FIO2 (mean inspiratory O2 fraction) and RR are predictors of failure on high flow oxygen therapy. The combination of SpO2 and RR is important as a patient may respond positively through either an improvement of oxygenation (improved ventilation-perfusion matching in the lung or diminished diffusion disorder) or a reduction in respiratory rate.  
+",,CPAP-Covid ,13.0,Single arm,2020-05-08,Planned,8521,,Nederlandse Vereniging van Artsen voor Longziekten en Tuberculose (NVALT),
+197,,NL8491,2020-03-31,Imatinib or placebo,,,"- Age >18 years
+- Hospital admission with proven SARS2-Covid19 infection
+- Hypoxemic respiratory failure (SaO2 <92%, PaO2 <8kPa)
+- Ability to give informed consent","{'firstName': 'Harm Jan', 'lastName': 'Bogaard', 'institute': 'Amsterdam UMC, location VUmc', 'phone': '+31020 444 1896', 'email': 'hj.bogaard@amsterdamumc.nl'}",Countering Lung Damage in COVID-19 infection (CounterCovid) study,2,"1. Pre-existing chronic pulmonary disease, including:
+ Known diagnosis of Interstitial Lung disease
+ Former diagnosis of COPD 4 or FEV1<30%pred
+ DLCO <45%
+ Total lung capacity (TLC) < 60% of predicted
+ Lung cancer with non-surgical treatment in last year
+2. Home oxygen treatment
+3. Pre-existing heart failure with a known left ventricular ejection fraction <40%
+4. Active treatment of hematological or non-hematological cancer with targeted, immuno- or chemotherapy in the last year
+4. Inability to provide informed consent
+5. Any subject who had received any investigational medication within 1 month prior to the start of this study or who is scheduled to receive another investigational drug during the course of this study
+6. Active liver disease, porphyria or elevations of serums transaminases >3 x ULN (upper limit of normal) or bilirubin > 1.5 x ULN
+7. History or suspicion of inability to cooperate adequately.
+8. White blood count < 4.0^109/l
+9. Hemoglobin < 6.0 mmol/l
+10. Thrombocytes < 100^109/l
+11. Pregnant female subjects
+12. Breastfeeding female subjects",Parallel,3Kj5APotipa1B3gnkFJ9097H1G53,8491.0,,,"{'firstName': 'Harm Jan', 'lastName': 'Bogaard', 'search': 'Bogaard, Harm Jan (Amsterdam UMC, location VUmc)', 'phone': '+31020 444 1896', 'userId': '3Kj5APotipa1B3gnkFJ9097H1G53', 'email': 'hj.bogaard@amsterdamumc.nl'}",Our hypothesis is that treatment with imatinib results in a reduction of the time to liberation from ventilation and supplemental oxygen and alive in Covid19.,Covid19 positive pneumonitis with need for hospital admission,time to liberation from ventilation and supplemental oxygen and alive during a 28day period after randomization,,,2020-06-30,Interventional,-M3k1Jjzjeo4h9J9Z618,,,"o 28-day mortality
+o Need for ICU admission
+o Length of ICU admission
+o Need for invasive ventilation
+o Days on ventilator
+o Need for ECMO
+o Need for non-invasive ventilation
+o SpO2 at Day 1,2,3,4,5,8,10
+o Fi O2 at Day 1,2,3,4,5,8,10
+o SpO2/FiO2 at Day 1,2,3,4,5,8,10
+o Viral clearance at Day 5 and 10.
+o Blood cell count Day 0,1,2,3,5,7,10
+o Kidney function Day 0,1,2,3,5,7,10
+o Liver enzymes Day 0,1,2,3,5,7,10
+o NTproBNP at Day 0,1,2,3,5,7,10
+o SAEs / AE
+o ECG at Day 1,3,5,10
+o Study drug plasma levels at 4h, 8h, Day 1,3,5,7,10
+o Albumin, AGP1 at Day 0,1,2,3,5,7,10",Countering Lung Damage in COVID-19 infection (CounterCovid) study,Amsterdam UMC,,True,Double,,Undecided,METC VUMC,Placebo,,published,True,,2020.158,"Rationale: Covid19 infection is characterized by hypoxemic respiratory failure, caused by extensive vascular leak and pulmonary edema early in the course of disease. Although there is no proven therapy to reduce viral replication in Covid19, recent studies from our department have discovered that the tyrosine kinase inhibitor imatinib reinforces the endothelial barrier and prevents vascular leak in inflammatory conditions, while leaving the immune response intact. We hypothesize that reversing vascular leak is an effective approach to reduce disease burden and consumption of medical resources.
+Objective: To test whether treatment with oral imatinib reduce disease burden and consumption of medical resources.
+Study design: A randomized, double-blind, placebo controlled, clinical trial.
+Study population: Patients (>18years) with proven Covid19 infection, admitted to the hospital with hypoxemic respiratory failure (SaO2<92% or kPa<8 on room air), with a study population of 386 patients (193/arm).
+Intervention (if applicable): The intervention group will receive a starting dose of 800mg oral imatinib, followed by 400mg od during 10 days. The control group will receive a similar dosing schedule with a placebo.
+Main study parameters/endpoints: The main study parameter is the time to liberation from ventilation and supplemental oxygen and alive during a 28day period after randomization.
+Nature and extent of the burden and risks associated with participation, benefit and group relatedness: Participation involves randomization to either the intervention or the placebo group. In both groups patients will undergo blood sampling at 9 time-points, at each time-point 1 or 4 tubes of 5mL will be drawn. Additional tests include a viral swab from the throat at 2 time-points, and an ECG at 5 time-points. Part of these interventions are part of routine care. Physical discomfort associated with participation involves swallowing of tablets, and side effects of the study medication, which are considered mild (predominantly gastro-intestinal discomfort). Anticipated benefits from the study medication involve faster recovery from Covid19 and a lower risk for ICU admission or death.",,CounterCovid19,386.0,"2 or more arms, randomized",2020-03-31,Open for patient inclusion,8491,True,AMC foundaition and VUmc Fonds,
+198,,NL8490,2020-03-31,"All treatment arms contain standard supportive care during hospital and:
+1.	Chloroquine arm: loading dose 600mg as chloroquine base followed by 300mg 12 hours later followed by 300mg twice a day; total treatment duration 5 days (same dose as LCI guideline) 
+2.	Hydroxychloroquine arm: loading dose 400mg bid followed by 200mg twice a day; total treatment duration 5 days (same dose as LCI guideline)
+3.	No antiviral treatment arm",,,"-	Patients (≥18 years of age) admitted to the hospital with confirmed COVID-19 and not needing admission to MC or ICU
+-	Patient has moderate to severe COVID-19. This will be defined as patients with NEWS-2 score ≤ 5. 
+-	Willing and able to give written informed consent","{'firstName': 'Jesper', 'lastName': 'Weehuizen', 'institute': 'UMC Utrecht', 'phone': '0887555678', 'email': 'j.m.weehuizen-2@umcutrecht.nl'}","An open label randomized controlled trial of chloroquine, hydroxychloroquine or only supportive care in patients admitted with moderate to severe COVID-19
+","Primary endpoint follow up: 14 days
+AE assessment follow up: 28 days","-	Severe Covid-19 defined as NEWS-2 score >5 or admission to the ICU needing ventilation or pressure support. 
+-	Contra-indications for hydroxychloroquine or chloroquine
+-	Known pregnancy, not using adequate contraception and having a chance of being pregnant (unless a negative pregnancy test is documented) or breast-feeding
+-	Unable to take oral medication (chloroquine and hydroxychloroquine can be administered through tube feeding and is considered oral administration)
+-	Identified allergies to 4-aminoquinoline
+-	Severe diseases of the blood system 
+-	6-phosphate dehydrogenase deficiency 
+-	History of acute myocardial infarction, unstable angina pectoris, severe arrhythmia (frequent ventricular, ventricular tachycardia, ventricular fibrillation) in recent 6 months; New York Heart Association (NYHA) level III-IV
+-	Corrected QT interval (QTc) ≥ 480ms on baseline electrocardiogram. (The treatment guideline states: An electrocardiogram is made before start chloroquine and hydroxychloroquine)
+-	Uncorrected severe hypokalaemia (< 2,5 mmol/l) or uncorrected severe hypomagnesemia (< 0.6 mmol/l) 
+-	Pancreatitis
+-	Concomitant medication that affect drug absorption, metabolism and excretion, that can induce QT interval prolongation: 
+o	Amiodarone, disopyramide, flecainide, ibutailide, kinidine, sotalol, 
+o	chlorpromazine, citolapram, escitalopram, haloperidol, pimozide, 
+o	azitromycine, claritromycine, erytromycine, moxifloxacine, trimethoprim/sulfamethoxazole, 
+o	Dimperidon, ondansetron,
+o	Methadon, 
+o	Anagrelide, arseentrioxide, droperidol, pentamidine, sevofluraan, vandetanib. 
+-	Refusal to participate expressed by patient or legally authorized representative if they are present 
+",Crossover,cn50Qvbq3Ua51VCUMTJ0a7Glept1,8490.0,,,"{'firstName': 'Jesper', 'lastName': 'Weehuizen', 'search': 'Weehuizen, Jesper (UMC Utrecht)', 'phone': '0887555678', 'userId': 'cn50Qvbq3Ua51VCUMTJ0a7Glept1', 'email': 'j.m.weehuizen-2@umcutrecht.nl'}","Treatment with chloroquine or hydroxychloroquine of adult patients admitted with moderate to severe COVID-19, a NEWS-2 score ≤5, reduces the proportion of patients who show progression of their disease defined as a NEWS-2 score ≥ 7(22), admission to Intensive/Medium Care unit or death",COVID-19,-	Composite endpoint with disease progression defined as a NEWS2score ≥ 7 within 14 days or resulting in admission to Intensive/Medium Care unit or resulting in death within 14 days.,,,2021-04-12,Interventional,-M3kI6mfe4UFmfjtmAmy,,,-	Side effects of different drugs leading to regimen change or discontinuation of the antiviral treatment,"An open label randomized controlled trial of chloroquine, hydroxychloroquine or only supportive care in patients admitted with moderate to severe COVID-19
+",UMC Utrecht,,True,None,,Undecided,METC UMCU,Not applicable,,published,True,,NL73529.041.20,"SUMMARY
+Rationale: Currently there are no approved treatments for COVID-19. In the Dutch treatment protocol guideline (SWAB) designated treatment options are chloroquine base (CQ), hydroxychloroquine (HCQ) and the standard treatment alone. CQ and HCQ are implemented because of their in vitro activity, results from small animal studies, and anecdotal patient’s data. There are no published randomized studies with these medications in patients with disease caused by any coronavirus.
+
+Objective: To evaluate if treatment with one of two antiviral agents versus no antiviral treatment results in less disease progression in patients with moderate to severe COVID-19 who require hospital admission.
+
+Study design: Multicentre, cluster-randomized cross-over, open label trial.
+Hospitals will be randomly allocated to one of 3 treatment arms in sequential periods of one week: chloroquine base versus hydroxychloroquine versus no antiviral agent without any drug presumed active against SARS-COV-2. Patients will be treated based on the date of admission.
+
+Study population: Adults aged of 18 years and older with moderate to severe, with a NEWS-2 score ≤ 5, laboratory confirmed COVID-19, who require hospital admission in a ward outside the Medium Care/Intensive Care.
+ 
+Intervention (if applicable): Depending on the treatment arm, the study subject will be treated with one of the two antiviral agents (chloroquine or hydroxychloroquine). Patients in the control group will not receive any antiviral treatment active against SARS-Cov-2.
+
+Main study parameters/endpoints: Disease progression defined as a NEWS-2 score ≥ 7 within 14 days, or admission to Medium Care or Intensive Care Unit, or death. 
+
+Nature and extent of the burden and risks associated with participation, benefit and group relatedness: Burden: The burden for the patient will be the initial inclusion in this trial and the possible telephonic contact after discharge from the hospital. All other data will be collected through routine care. 
+Risk and benefit: All three arms are currently implemented as possible treatment for COVID-19, without preference for a treatment. Therefore patients are not exposed to an additional risk. The possible benefit of one arm will be accounted for with monitoring. 
+
+Protocol publication: An Open Label Cluster Randomized Controlled Trial of Chloroquine, Hydroxychloroquine or Only Supportive Care in Patients Admitted With Moderate to Severe COVID-19 (ARCHAIC) - Protocol Publication 
+PMID: 32474918 DOI: 10.1111/eci.13297",,ARCHAIC,950.0,"2 or more arms, randomized",2020-04-12,Open for patient inclusion,8490,False,ZonMw,
+205,,NL8483,2020-03-26,Infotainment intervention with (social) media and influencers.,,,Able to fill in the questionnaire in Dutch,"{'firstName': 'Hamza', 'lastName': 'Yousuf', 'institute': 'Amsterdam UMC (VU University medical center)', 'phone': '00 31 20 444 22 44', 'email': 'hamza@hamzayousuf.nl'}",A weapon against COVID-19: (Social) media and influencers,Pre and post intervention measurement of hygiene behaviour.,Younger than 8 years old,Unknown,L6g8StlFjfhxINeaWfdWwomyzpj1,8483.0,,,"{'firstName': 'Hamza', 'lastName': 'Yousuf', 'search': 'Yousuf, Hamza (Amsterdam UMC (VU University medical center))', 'phone': '0639493881', 'userId': 'L6g8StlFjfhxINeaWfdWwomyzpj1', 'email': 'hamza@hamzayousuf.nl'}",The hygiene around COVID-19 prevention lacks in proper behaviour and needs to be intervened to prevent spreading and mortality.,SARS-CoV-2,Elevation of proper hygiene behaviour (behavioural change),,,2020-03-29,Interventional,-M3MUkXFyieMJzs4FeSt,,,Effectiveness of the different media outlets,The use of (social) media ,Fred Foundation ; Noaber Foundation,,,None,,Undecided,METC VUMC,Active,,published,False,,METc VUmc 2020.141,"To combat the spread and mortality of COVID-19 we utilised social influencers and traditional news outlets to measure the state of hygiene behaviour (e.g. hand washing, social distancing) in the general Dutch population. After analysis of pre intervention data we designed a personalised video intervention. In the post intervention survey we assess the effects of our campaign video on behaviour.",,TBA,17000.0,"2 or more arms, non-randomized",2020-03-16,Open for patient inclusion,8483,True,Fred Foundation ; Noaber Foundation,

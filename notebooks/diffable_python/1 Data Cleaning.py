@@ -339,9 +339,23 @@ df_final = df_cond_int[reorder].reset_index(drop=True).drop_duplicates().reset_i
 
 df_final.to_csv(parent + '/data/cleaned_ictrp_29June2020.csv', index=False)
 
+# +
+print(f'There are {len(df_final)} total unique registered studies on the ICTRP')
 
+non_int = df_final[((df_final.study_type == 'Interventional') | (df_final.study_type == 'Prevention'))].reset_index(drop=True)
 
+print(f'{len(non_int)} are Interventional or on Prevention. We exclude {len(df_final) - len(non_int)} at this setp')
 
+in_2020 = non_int[(non_int.date_registration >= pd.Timestamp(2020,1,1))].reset_index(drop=True)
+
+print(f'{len(in_2020)} started since 1 Jan 2020. We exclude {len(non_int) - len(in_2020)} at this step')
+
+withdrawn = in_2020[~(in_2020.public_title.str.contains('Cancelled') | in_2020.public_title.str.contains('Retracted due to'))].reset_index(drop=True)
+
+print(f'{len(withdrawn)} are not listed as cancelled/withdrawn. We exclude {len(in_2020) - len(withdrawn)} at this step but will exclude additional trials after scraping the registries')
+# -
+
+withdrawn.to_csv(parent + '/data/ictrp_with_exclusions_29Jul2020.csv')
 
 
 

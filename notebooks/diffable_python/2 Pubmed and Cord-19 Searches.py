@@ -67,6 +67,7 @@ except FileNotFoundError:
 
 pubmed_data = archive_df.xml_json.tolist()
 
+# +
 pubmed_dicts = []
 for rec in tqdm(pubmed_data):
     pm_dict = json.loads(rec)['PubmedArticle']
@@ -116,7 +117,7 @@ for rec in tqdm(pubmed_data):
     except KeyError:
         entry_dict['pub_types'] = None
     pubmed_dicts.append(entry_dict)
-    
+
 
 # +
 #Our searching function and lists of our regular expressions
@@ -126,8 +127,8 @@ for d in tqdm(pubmed_dicts):
     d['abst_id_hits'] = search_text(ids_exact, d['abstract'])
     d['reg_prefix_hits'] = search_text(prefixes, d['abstract'])
     d['reg_name_hits'] = search_text(registry_names, d['abstract'])
-    
-    
+
+
 # -
 
 pubmed_search_results = pd.DataFrame(pubmed_dicts)
