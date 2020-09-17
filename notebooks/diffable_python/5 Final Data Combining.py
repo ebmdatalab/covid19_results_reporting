@@ -1,0 +1,132 @@
+# ---
+# jupyter:
+#   jupytext:
+#     cell_metadata_filter: all
+#     notebook_metadata_filter: all,-language_info
+#     text_representation:
+#       extension: .py
+#       format_name: light
+#       format_version: '1.5'
+#       jupytext_version: 1.3.3
+#   kernelspec:
+#     display_name: Python 3
+#     language: python
+#     name: python3
+# ---
+
+import sys
+from pathlib import Path
+import os
+cwd = os.getcwd()
+parent = str(Path(cwd).parents[0])
+sys.path.append(parent)
+
+import pandas as pd
+import numpy as np
+
+df = pd.read_csv(parent + '/data/cleaned_ictrp_29June2020.csv').drop('index', axis=1)
+
+df['date_registration'] = pd.to_datetime(df['date_registration'])
+
+# +
+#exclusion logic
+
+int_prev = ((df.study_type == 'Interventional') | (df.study_type == 'Prevention'))
+
+in_2020 = (df.date_registration >= pd.Timestamp(2020,1,1))
+
+#At the moment, this deals with withdrawn trials from the ChiCTR. Data from other registries doesn't
+#Reliable make it to the ICTRP. We will exclude withdrawn trials from ClinicalTrials.gov
+#When we join that in below.
+withdrawn = ~((df.public_title.str.contains('Cancelled')) | df.public_title.str.contains('Retracted due to'))
+# -
+
+df['included'] = np.where(int_prev & in_2020 & withdrawn, 1, 0)
+
+registry_data = pd.read_csv(parent + '/data/registry_data/registry_data_clean.csv')
+
+# +
+#Taking only what we need to join
+reg_cols = ['trial_id', 'trial_status', 'pcd', 'scd', 'relevent_comp_date', 'tabular_results', 
+            'potential_other_results']
+
+
+df_reg_merge = df.merge(registry_data[reg_cols], how='left', left_on='trialid', 
+                        right_on='trial_id').drop('trial_id', axis=1)
+
+df_reg_merge['tabular_results'] = df_reg_merge['tabular_results'].fillna(0).astype(int)
+df_reg_merge['potential_other_results'] = df_reg_merge['potential_other_results'].fillna(0).astype(int)
+
+# +
+#excluding more withdrawn trials
+
+df_reg_merge['included'] = np.where((df_reg_merge.trial_status == 'Withdrawn'), 0, df_reg_merge['included'])
+df_reg_merge = df_reg_merge.drop('trial_status', axis=1)
+# -
+
+auto_hits = pd.read_csv(parent + '/data/screening_hit_results.csv')
+
+
+# +
+def group_rules(grp):
+    l = []
+    for x in grp:
+        if x in l:
+            pass
+        else:
+            l.append(x)
+    if len(l) == 0:
+        return np.nan
+    else:
+        return l
+
+def max_list_size(column):
+    max_size = 0
+    for x in column:
+        if len(x) > max_size:
+            max_size = len(x)
+    return max_size
+
+
+# +
+group_auto = auto_hits.groupby('trn_1', as_index=False).agg(group_rules)
+
+filtered = group_auto[['trn_1', 'trn_2', 'id', 'doi', 'results_pub_type',  
+                       'completion_date', 'publication_date']].reset_index(drop=True)
+
+rename = ['hit_tid', 'hit_tid2', 'auto_id', 'doi', 'results_pub_type', 'pub_completion_date', 'publication_date']
+
+filtered.columns = rename
+
+# +
+for name in rename[2:]:
+    col_list = filtered[name].tolist()
+    max_size = max_list_size(col_list)
+    cols = [(name + '_{}').format(x) for x in range(1, max_size+1)]
+    filtered[cols] = pd.DataFrame(col_list, index=filtered.index)
+    filtered = filtered.drop(name, axis=1)
+
+#Fixing this
+filtered['hit_tid2'] = filtered['hit_tid2'].str[0]
+# -
+
+df_final = df_reg_merge.merge(filtered, how='left', left_on='trialid', right_on='hit_tid').drop('hit_tid', axis=1)
+
+# +
+#Check for trials that are in our results but not in the ICTRP dataset
+
+a = df_reg_merge.trialid.tolist()
+b = filtered.hit_tid.tolist()
+
+set(b) - set(a)
+# -
+
+df_final.head()
+
+df_final.to_csv(parent + '/data/final_dataset.csv')
+
+
+
+
+
+
