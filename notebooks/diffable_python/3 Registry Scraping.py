@@ -368,12 +368,12 @@ ctri_list = []
 
 for c in tqdm(ctri_urls):
 
-    soup = get_ctri('http://www.ctri.nic.in/Clinicaltrials/pmaindet2.php?trialid=42843')
+    soup = get_ctri(c)
 
     trial_dict = {}
 
     trial_dict['trial_id'] = soup.find('td', text = re.compile('CTRI Number\s*')).find_next('b').find_next('b').text.strip()
-
+    
     trial_dict['completion_date_india'] = soup.find('td', text = 'Date of Study Completion (India)').find_next('td').text.strip()
 
     trial_dict['completion_date_global'] = soup.find('td', text = 'Date of Study Completion (Global)').find_next('td').text.strip()
@@ -392,7 +392,9 @@ for c in tqdm(ctri_urls):
     ctri_list.append(trial_dict)
 # -
 
-pd.DataFrame(ctri_list).to_csv(save_path + 'ctri_2jul2020.csv')
+ctri_list[0]
+
+pd.DataFrame(ctri_list).to_csv(save_path + 'ctri_2jul2020_fix.csv')
 
 # # ANZCTR
 

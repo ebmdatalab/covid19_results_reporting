@@ -28,6 +28,15 @@ df = pd.read_csv(parent + '/data/cleaned_ictrp_29June2020.csv').drop('index', ax
 
 df['date_registration'] = pd.to_datetime(df['date_registration'])
 
+df.head()
+
+
+# +
+def dedupe(df, fields):
+    return df[fields].groupby(fields[0], as_index=False).count().sort_values(by='source_register', ascending=False)
+
+dedupe(df, ['trialid', 'source_register'])
+
 # +
 #exclusion logic
 
@@ -44,6 +53,8 @@ withdrawn = ~((df.public_title.str.contains('Cancelled')) | df.public_title.str.
 df['included'] = np.where(int_prev & in_2020 & withdrawn, 1, 0)
 
 registry_data = pd.read_csv(parent + '/data/registry_data/registry_data_clean.csv')
+
+registry_data.head()
 
 # +
 #Taking only what we need to join
@@ -63,6 +74,8 @@ df_reg_merge['potential_other_results'] = df_reg_merge['potential_other_results'
 df_reg_merge['included'] = np.where((df_reg_merge.trial_status == 'Withdrawn'), 0, df_reg_merge['included'])
 df_reg_merge = df_reg_merge.drop('trial_status', axis=1)
 # -
+
+dedupe(df_reg_merge, ['trialid', 'source_register'])
 
 auto_hits = pd.read_csv(parent + '/data/screening_hit_results.csv')
 
@@ -112,6 +125,8 @@ filtered['hit_tid2'] = filtered['hit_tid2'].str[0]
 
 df_final = df_reg_merge.merge(filtered, how='left', left_on='trialid', right_on='hit_tid').drop('hit_tid', axis=1)
 
+dedupe(df_final, ['trialid', 'source_register'])
+
 # +
 #Check for trials that are in our results but not in the ICTRP dataset
 
@@ -124,9 +139,5 @@ set(b) - set(a)
 df_final.head()
 
 df_final.to_csv(parent + '/data/final_dataset.csv')
-
-
-
-
 
 

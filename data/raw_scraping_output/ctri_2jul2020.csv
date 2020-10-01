@@ -1,59 +1,59 @@
 ,trial_id,completion_date_india,completion_date_global,recruitment_status_india,recruitment_status_global,publication_details,secondary_ids
-0,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+0,CTRI/2020/03/024402,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-1,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+1,CTRI/2020/04/024479,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,will be published in indexed medical journal,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-2,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+2,CTRI/2020/04/024659,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Completed,Not Applicable,,"[<tr bgcolor=""#004080"">
+<td><font color=""white""><b>Secondary ID </b></font></td>
+<td><font color=""white""><b>Identifier </b></font></td>
+</tr>, <tr>
+<td>Protocol No. SSV-SF-04/2020, Version 1, dated 08th Apr 2020 </td>
+<td>Protocol Number </td>
+</tr>]"
+3,CTRI/2020/04/024731,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,Nil,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-3,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+4,CTRI/2020/04/024729,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-4,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+5,CTRI/2020/04/024747,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,"Mouli TC, Davuluri A, Vijaya S, Priyanka AD, Mishra SK. Effectiveness of simulation based teaching of ventilatory management among non-anaesthesiology residents to manage COVID 19 pandemic - A quasi experimental cross sectional pilot study. Indian J Anaesth 2020;64:S136-40.","[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-5,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+6,CTRI/2020/04/024775,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,NA,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
-<td>NIL </td>
-<td>NIL </td>
+<td>Protocol v 1.1 dated 12/04/20 </td>
+<td>Protocol Number </td>
 </tr>]"
-6,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+7,CTRI/2020/04/024749,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
-<td>NIL </td>
-<td>NIL </td>
-</tr>]"
-7,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
-<td><font color=""white""><b>Secondary ID </b></font></td>
-<td><font color=""white""><b>Identifier </b></font></td>
-</tr>, <tr>
-<td>NIL </td>
-<td>NIL </td>
+<td>SII-rBCG/COVID-19/IN-01, version 3.0, dated 11.04.2020 </td>
+<td>Protocol Number </td>
 </tr>]"
 8,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
@@ -62,259 +62,262 @@
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-9,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+9,CTRI/2020/04/024804,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,To be filled,"[<tr bgcolor=""#004080"">
+<td><font color=""white""><b>Secondary ID </b></font></td>
+<td><font color=""white""><b>Identifier </b></font></td>
+</tr>, <tr>
+<td>IMD/CoV/003/2020, Version 2.1, 29 Apr 2020 </td>
+<td>Protocol Number </td>
+</tr>]"
+10,CTRI/2020/04/024776,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,NIL,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-10,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+11,CTRI/2020/04/024833,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,Study protocol not published. Recruitment not yet started,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-11,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+12,CTRI/2020/04/024846,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+<td><font color=""white""><b>Secondary ID </b></font></td>
+<td><font color=""white""><b>Identifier </b></font></td>
+</tr>, <tr>
+<td>CRSC20004, version no. 02, 10.04.2020 </td>
+<td>Protocol Number </td>
+</tr>]"
+13,CTRI/2020/04/024857,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,NIL,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-12,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+14,CTRI/2020/04/024858,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-13,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+15,CTRI/2020/04/024882,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-14,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+16,CTRI/2020/04/024904,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,Will be published in indexed medical journal,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-15,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+17,CTRI/2020/04/024883,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-16,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+18,CTRI/2020/04/024915,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,,"[<tr bgcolor=""#004080"">
+<td><font color=""white""><b>Secondary ID </b></font></td>
+<td><font color=""white""><b>Identifier </b></font></td>
+</tr>, <tr>
+<td>MHC-COVID-19-CP, Version 2.0 dated 20-Apr-2020 </td>
+<td>Protocol Number </td>
+</tr>]"
+19,CTRI/2020/04/024948,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-17,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+20,CTRI/2020/04/024949,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,Nil,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-18,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+21,CTRI/2020/04/024947,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,nil,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-19,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+22,CTRI/2020/05/024967,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,NIL,"[<tr bgcolor=""#004080"">
+<td><font color=""white""><b>Secondary ID </b></font></td>
+<td><font color=""white""><b>Identifier </b></font></td>
+</tr>, <tr>
+<td>CT/MiLab/MyVir/2020   Version 1.0 dated 14th Apr 2020 </td>
+<td>Protocol Number </td>
+</tr>]"
+23,CTRI/2020/05/024959,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,None Yet,"[<tr bgcolor=""#004080"">
+<td><font color=""white""><b>Secondary ID </b></font></td>
+<td><font color=""white""><b>Identifier </b></font></td>
+</tr>, <tr>
+<td>ITOLI-C19-02-I-00, V3.0, 09/04/2020 </td>
+<td>Protocol Number </td>
+</tr>]"
+24,CTRI/2020/05/024969,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-20,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+25,CTRI/2020/05/024962,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-21,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+26,CTRI/2020/05/024981,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,Not yet published,"[<tr bgcolor=""#004080"">
+<td><font color=""white""><b>Secondary ID </b></font></td>
+<td><font color=""white""><b>Identifier </b></font></td>
+</tr>, <tr>
+<td>DCP-CVD-19/2020/01 Version 1.0 Dated 22nd April 2020 </td>
+<td>Protocol Number </td>
+</tr>]"
+27,CTRI/2020/05/024983,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-22,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+28,CTRI/2020/05/024986,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,None yet.,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-23,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+29,CTRI/2020/05/025013,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,none,"[<tr bgcolor=""#004080"">
+<td><font color=""white""><b>Secondary ID </b></font></td>
+<td><font color=""white""><b>Identifier </b></font></td>
+</tr>, <tr>
+<td>BIO/CT/20/000049 </td>
+<td>DCGI </td>
+</tr>, <tr>
+<td>NIL </td>
+<td>NIL </td>
+</tr>]"
+30,CTRI/2020/05/025022,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-24,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+31,CTRI/2020/05/025067,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,NIL,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-25,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+32,CTRI/2020/05/025049,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,NIL,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-26,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+33,CTRI/2020/05/025069,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,NIL,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-27,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+34,CTRI/2020/05/025068,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,We will plan to publish the results of this study in reputed National and International Journals.,"[<tr bgcolor=""#004080"">
+<td><font color=""white""><b>Secondary ID </b></font></td>
+<td><font color=""white""><b>Identifier </b></font></td>
+</tr>, <tr>
+<td>Not applicable </td>
+<td>NIL </td>
+</tr>]"
+35,CTRI/2020/05/025071,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,NIL,"[<tr bgcolor=""#004080"">
+<td><font color=""white""><b>Secondary ID </b></font></td>
+<td><font color=""white""><b>Identifier </b></font></td>
+</tr>, <tr>
+<td>  Not Registered in any other registry  </td>
+<td>NIL </td>
+</tr>]"
+36,CTRI/2020/05/025088,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,nil,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-28,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+37,CTRI/2020/05/025093,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,nil,"[<tr bgcolor=""#004080"">
+<td><font color=""white""><b>Secondary ID </b></font></td>
+<td><font color=""white""><b>Identifier </b></font></td>
+</tr>, <tr>
+<td>not applicable </td>
+<td>NIL </td>
+</tr>]"
+38,CTRI/2020/05/025114,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,NIL,"[<tr bgcolor=""#004080"">
+<td><font color=""white""><b>Secondary ID </b></font></td>
+<td><font color=""white""><b>Identifier </b></font></td>
+</tr>, <tr>
+<td>GPL/CT/2020/002/III, Version: 3.0, dated: 26 Apr 2020 </td>
+<td>Protocol Number </td>
+</tr>]"
+39,CTRI/2020/05/025156,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,The trial results will be published by CCRAS at the end of clinical trial.,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-29,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+40,CTRI/2020/05/025162,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-30,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+41,CTRI/2020/05/025161,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,Publication is under process,"[<tr bgcolor=""#004080"">
+<td><font color=""white""><b>Secondary ID </b></font></td>
+<td><font color=""white""><b>Identifier </b></font></td>
+</tr>, <tr>
+<td>ARL/CSP/2020/002-01 </td>
+<td>Protocol Number </td>
+</tr>]"
+42,CTRI/2020/05/025166,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,nil,"[<tr bgcolor=""#004080"">
+<td><font color=""white""><b>Secondary ID </b></font></td>
+<td><font color=""white""><b>Identifier </b></font></td>
+</tr>, <tr>
+<td>not applicable </td>
+<td>NIL </td>
+</tr>]"
+43,CTRI/2020/05/025178,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,nil,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
 <td>NIL </td>
 <td>NIL </td>
 </tr>]"
-31,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+44,CTRI/2020/05/025167,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,None yet,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
-<td>NIL </td>
-<td>NIL </td>
+<td>0248-20, Version No: 3.0, Date : 07 july 2020 </td>
+<td>Protocol Number </td>
 </tr>]"
-32,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
-<td><font color=""white""><b>Secondary ID </b></font></td>
-<td><font color=""white""><b>Identifier </b></font></td>
-</tr>, <tr>
-<td>NIL </td>
-<td>NIL </td>
-</tr>]"
-33,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
-<td><font color=""white""><b>Secondary ID </b></font></td>
-<td><font color=""white""><b>Identifier </b></font></td>
-</tr>, <tr>
-<td>NIL </td>
-<td>NIL </td>
-</tr>]"
-34,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
-<td><font color=""white""><b>Secondary ID </b></font></td>
-<td><font color=""white""><b>Identifier </b></font></td>
-</tr>, <tr>
-<td>NIL </td>
-<td>NIL </td>
-</tr>]"
-35,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
-<td><font color=""white""><b>Secondary ID </b></font></td>
-<td><font color=""white""><b>Identifier </b></font></td>
-</tr>, <tr>
-<td>NIL </td>
-<td>NIL </td>
-</tr>]"
-36,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
-<td><font color=""white""><b>Secondary ID </b></font></td>
-<td><font color=""white""><b>Identifier </b></font></td>
-</tr>, <tr>
-<td>NIL </td>
-<td>NIL </td>
-</tr>]"
-37,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
-<td><font color=""white""><b>Secondary ID </b></font></td>
-<td><font color=""white""><b>Identifier </b></font></td>
-</tr>, <tr>
-<td>NIL </td>
-<td>NIL </td>
-</tr>]"
-38,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
-<td><font color=""white""><b>Secondary ID </b></font></td>
-<td><font color=""white""><b>Identifier </b></font></td>
-</tr>, <tr>
-<td>NIL </td>
-<td>NIL </td>
-</tr>]"
-39,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
-<td><font color=""white""><b>Secondary ID </b></font></td>
-<td><font color=""white""><b>Identifier </b></font></td>
-</tr>, <tr>
-<td>NIL </td>
-<td>NIL </td>
-</tr>]"
-40,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
-<td><font color=""white""><b>Secondary ID </b></font></td>
-<td><font color=""white""><b>Identifier </b></font></td>
-</tr>, <tr>
-<td>NIL </td>
-<td>NIL </td>
-</tr>]"
-41,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
-<td><font color=""white""><b>Secondary ID </b></font></td>
-<td><font color=""white""><b>Identifier </b></font></td>
-</tr>, <tr>
-<td>NIL </td>
-<td>NIL </td>
-</tr>]"
-42,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
-<td><font color=""white""><b>Secondary ID </b></font></td>
-<td><font color=""white""><b>Identifier </b></font></td>
-</tr>, <tr>
-<td>NIL </td>
-<td>NIL </td>
-</tr>]"
-43,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
-<td><font color=""white""><b>Secondary ID </b></font></td>
-<td><font color=""white""><b>Identifier </b></font></td>
-</tr>, <tr>
-<td>NIL </td>
-<td>NIL </td>
-</tr>]"
-44,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
-<td><font color=""white""><b>Secondary ID </b></font></td>
-<td><font color=""white""><b>Identifier </b></font></td>
-</tr>, <tr>
-<td>NIL </td>
-<td>NIL </td>
-</tr>]"
-45,CTRI/2020/04/024806,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Open to Recruitment,Not Applicable,,"[<tr bgcolor=""#004080"">
+45,CTRI/2020/05/025171,Applicable only for Completed/Terminated trials,Applicable only for Completed/Terminated trials,Not Yet Recruiting,Not Applicable,nil,"[<tr bgcolor=""#004080"">
 <td><font color=""white""><b>Secondary ID </b></font></td>
 <td><font color=""white""><b>Identifier </b></font></td>
 </tr>, <tr>
