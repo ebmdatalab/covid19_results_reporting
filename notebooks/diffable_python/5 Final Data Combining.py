@@ -32,10 +32,11 @@ df.head()
 
 
 # +
-def dedupe(df, fields):
-    return df[fields].groupby(fields[0], as_index=False).count().sort_values(by='source_register', ascending=False)
+def dedupe_check(df, fields):
+    check = df[fields].groupby(fields[0], as_index=False).count().sort_values(by='source_register', ascending=False)
+    return check[check.source_register > 1]
 
-dedupe(df, ['trialid', 'source_register'])
+dedupe_check(df, ['trialid', 'source_register'])
 
 # +
 #exclusion logic
@@ -75,9 +76,19 @@ df_reg_merge['included'] = np.where((df_reg_merge.trial_status == 'Withdrawn'), 
 df_reg_merge = df_reg_merge.drop('trial_status', axis=1)
 # -
 
-dedupe(df_reg_merge, ['trialid', 'source_register'])
+dedupe_check(df_reg_merge, ['trialid', 'source_register'])
 
 auto_hits = pd.read_csv(parent + '/data/screening_hit_results.csv')
+
+# Note:
+#
+# We manually changed EUCTR2020-000890-25 to "EUCTR2020-000890-25-FR" and "EUCTR2020-001934-37" to "EUCTR2020-001934-37-ES" to match how they appear in the ICTRP for merging
+
+# +
+#Here we remove the record PMID32339248 as this was a duplicate PubMed entry to 32330277. 
+#We contacted PubMed and this has now been deleted from PubMed entirely.
+
+auto_hits = auto_hits[auto_hits.id != '32339248'].reset_index(drop=True)
 
 
 # +
@@ -125,7 +136,7 @@ filtered['hit_tid2'] = filtered['hit_tid2'].str[0]
 
 df_final = df_reg_merge.merge(filtered, how='left', left_on='trialid', right_on='hit_tid').drop('hit_tid', axis=1)
 
-dedupe(df_final, ['trialid', 'source_register'])
+dedupe_check(df_final, ['trialid', 'source_register'])
 
 # +
 #Check for trials that are in our results but not in the ICTRP dataset
@@ -134,10 +145,29 @@ a = df_reg_merge.trialid.tolist()
 b = filtered.hit_tid.tolist()
 
 set(b) - set(a)
+
+# +
+df_final['relevent_comp_date'] = pd.to_datetime(df_final['relevent_comp_date'])
+
+df_final.columns
+
+# +
+#Conditions for round inclusion:
+
+overall_inclusion = (df_final.included == 1)
+date_inclusion = (df_final.relevent_comp_date < pd.Timestamp(2020,7,1))
+reg_or_pub = ((df_final.results_pub_type_1.notnull()) | (df_final.tabular_results == 1) | (df_final.potential_other_results == 1))
+
+
+df_final["round_inclusion"] = np.where((overall_inclusion & (date_inclusion | reg_or_pub)),1,0)
 # -
 
 df_final.head()
 
+df_final.round_inclusion.sum()
+
 df_final.to_csv(parent + '/data/final_dataset.csv')
+
+
 
 
