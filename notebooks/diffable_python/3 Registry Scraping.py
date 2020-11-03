@@ -149,15 +149,19 @@ for i in tqdm(isrctn_urls):
     trial_dict['trial_id'] = soup.find('span', {'class':'ComplexTitle_primary'}).text
 
     #Trial Status
-    if soup.find('p', text='Overall trial status'):
+    if soup.find('dt', text='Overall trial status'):
         trial_dict['overall_status'] = soup.find('dt', text='Overall trial status').find_next().text.strip()
     else:
         trial_dict['overall_status'] = None
+        
     trial_dict['recruitment_status'] = soup.find('dt', text='Recruitment status').find_next().text.strip()
 
     #Dates
-    trial_dict['trial_end_date'] = soup.find('h3', text='Overall trial start date').find_next().text.strip()
+    trial_dict['trial_start_date'] = soup.find('h3', text='Overall trial start date').find_next().text.strip()
 
+    #Dates
+    trial_dict['trial_end_date'] = soup.find('h3', text='Overall trial end date').find_next().text.strip()
+    
     #Other IDs
     sid_dict={}
     if soup.find('h3', text='EudraCT number').find_next().text.strip():
