@@ -82,7 +82,9 @@ auto_hits = pd.read_csv(parent + '/data/screening_hit_results.csv')
 
 # Note:
 #
-# We manually changed EUCTR2020-000890-25 to "EUCTR2020-000890-25-FR" and "EUCTR2020-001934-37" to "EUCTR2020-001934-37-ES" to match how they appear in the ICTRP for merging
+# We have to change EUCTR2020-000890-25 to "EUCTR2020-000890-25-FR" and "EUCTR2020-001934-37" to "EUCTR2020-001934-37-ES" to match how they appear in the ICTRP for merging
+
+auto_hits['trn_1'] = auto_hits['trn_1'].str.replace('EUCTR2020-000890-25', 'EUCTR2020-000890-25-FR').str.replace('EUCTR2020-001934-37', 'EUCTR2020-001934-37-ES')
 
 # +
 #Here we remove the record PMID32339248 as this was a duplicate PubMed entry to 32330277. 
