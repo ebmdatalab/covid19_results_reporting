@@ -1,0 +1,42 @@
+,hit_tid,hit_tid2,auto_id,doi,results_pub_type,completion_date,publication_date
+0,2020-001934-37,,zql4zhyk,http://doi.org/10.1101/2020.06.17.20133579,full_results_preprint,,18/06/2020
+1,ChiCTR2000029308,,32187464,http://doi.org/10.1056/NEJMoa2001282,full_results_journal_article,,18/03/2020
+2,ChiCTR2000029381,,32527346,http://doi.org/10.3760/cma.j.cn121430-20200406-00386,full_results_journal_article,,28/04/2020
+3,ChiCTR2000029418,,"['4as055wh', '32574340']","['http://doi.org/10.1101/2020.03.27.20044974', 'http://doi.org/10.3389/fmed.2020.00256']","['full_results_preprint', 'full_results_journal_article']",,"['01/04/2020', '27/05/2020']"
+4,ChiCTR2000029431,,gzao2fo6,http://doi.org/10.1101/2020.04.07.20054767,full_results_preprint,,14/04/2020
+5,ChiCTR2000029434,,32425361,http://doi.org/10.1016/j.phymed.2020.153242,full_results_journal_article,,16/05/2020
+6,ChiCTR2000029496,,rq5gh710,http://doi.org/10.1101/2020.04.24.20077735,full_results_preprint,,29/04/2020
+7,ChiCTR2000029542,,32236562,http://doi.org/10.1093/jmcb/mjaa014,interim_results_journal_article,no,01/04/2020
+8,ChiCTR2000029559,,q8l3ra55,http://doi.org/10.1101/2020.03.22.20040758,full_results_preprint,,30/03/2020
+9,ChiCTR2000029600,,32346491,http://doi.org/10.1016/j.eng.2020.03.007,full_results_journal_article,,18/03/2020
+10,ChiCTR2000029757,,32492084,http://doi.org/10.1001/jama.2020.10044,full_results_journal_article,28/04/2020,03/06/2020
+11,ChiCTR2000029851,,mvsnybbo,http://doi.org/10.1101/2020.04.15.20066266,full_results_preprint,,21/04/2020
+12,ChiCTR2000029868,,32409561,http://doi.org/10.1136/bmj.m1849,full_results_journal_article,14/03/2020,14/05/2020
+13,ChiCTR2000029990,,32257537,http://doi.org/10.14336/ad.2020.0228,full_results_journal_article,,13/03/2020
+14,ChiCTR2000030046,,32253318,http://doi.org/10.1073/pnas.2004168117,full_results_journal_article,,06/04/2020
+15,ChiCTR2000030054,,t1vom8f3,http://doi.org/10.1101/2020.06.19.20136093,full_results_preprint,,no
+16,ChiCTR2000030055,,32318327,http://doi.org/10.1016/j.apsb.2020.04.008,full_results_journal_article,,20/04/2020
+17,ChiCTR2000030058,,rkf971xn,http://doi.org/10.1101/2020.05.29.20114223,full_results_preprint,,02/06/2020
+18,ChiCTR2000030704,,1q8972uo,http://doi.org/10.1101/2020.05.20.20107607,full_results_preprint,,26/05/2020
+19,ChiCTR2000030939,,7g3keqx9,http://doi.org/10.1101/2020.05.11.20064584,full_results_preprint,,15/05/2020
+20,ChiCTR2000031630,,a1gf76bu,http://doi.org/10.1101/2020.05.05.20077610,full_results_preprint,,11/05/2020
+21,EUCTR2020-000890-25-FR,,tdlcb9bf,http://doi.org/10.1101/2020.03.16.20037135,full_results_preprint,,20/03/2020
+22,IRCT20100228003449N28,,ipvog4m8,http://doi.org/10.1101/2020.05.28.20116467,full_results_preprint,03/05/2020,30/05/2020
+23,IRCT20151227025726N12,,32544867,http://doi.org/10.1016/j.intimp.2020.106688,full_results_journal_article,,07/06/2020
+24,NCT04252885,,"['9hknw4ws', 'ytqjxzaa']","['http://doi.org/10.1101/2020.03.19.20038984', 'http://doi.org/10.1016/j.medj.2020.04.001']","['full_results_preprint', 'full_results_journal_article']",,"['15/04/2020', '04/05/2020']"
+25,NCT04257656,,32423584,http://doi.org/10.1016/S0140-6736(20)31022-9,interim_results_journal_article,10/04/2020,29/04/2020
+26,NCT04261517,,32391667,http://doi.org/10.3785/j.issn.1008-9292.2020.03.03,full_results_journal_article,,25/05/2020
+27,NCT04275245,,6g34qwer,http://doi.org/10.1101/2020.03.21.20040691,full_results_preprint,,24/03/2020
+28,NCT04276688,,32401715,http://doi.org/10.1016/S0140-6736(20)31042-4,full_results_journal_article,,08/05/2020
+29,NCT04280705,,32445440,http://doi.org/10.1056/NEJMoa2007764,interim_results_journal_article,,22/05/2020
+30,NCT04292899,,32459919,http://doi.org/10.1056/NEJMoa2015301,full_results_journal_article,,27/05/2020
+31,NCT04308668,,32492293,http://doi.org/10.1056/NEJMoa2016638,full_results_journal_article,,03/06/2020
+32,NCT04313127,,32450106,http://doi.org/10.1016/S0140-6736(20)31208-3,full_results_journal_article,,22/05/2020
+33,NCT04317092,EUCTR2020-001110-38,xv0jhsj0,http://doi.org/10.1101/2020.06.01.20119149,full_results_preprint,04/04/2020,05/06/2020
+34,NCT04320238,,z68tl88x,http://doi.org/10.1101/2020.04.11.20061473,full_results_preprint,,17/04/2020
+35,NCT04321421,,ze4bvjkt,http://doi.org/10.1101/2020.05.26.20113373,full_results_preprint,28/04/2020,29/05/2020
+36,NCT04323527,,"['32339248', 'ifxm3j4y']","['http://doi.org/10.1001/jamanetworkopen.2020.8857', 'http://doi.org/10.1101/2020.04.07.20056424']","['interim_results_journal_article', 'interim_results_preprint']",,"['24/04/2020', '11/04/2020']"
+37,NCT04326790,,32579195,http://doi.org/10.1001/jamanetworkopen.2020.13136,full_results_journal_article,,24/06/2020
+38,NCT04340050,,x2t5h5gu,http://doi.org/10.1101/2020.06.21.20132944,full_results_preprint,,23/06/2020
+39,NCT04368377,,32450344,http://doi.org/10.1016/j.phrs.2020.104950,full_results_journal_article,,23/05/2020
+40,NCT04381936,,ocguwlam,http://doi.org/10.1101/2020.06.22.20137273,interim_results_preprint,,22/06/2020

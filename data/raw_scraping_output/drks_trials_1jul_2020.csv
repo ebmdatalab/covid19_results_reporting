@@ -1,0 +1,17 @@
+,trial_id,recruitment_status,study_closing_date,secondary_ids,results_publications_documents
+0,DRKS00021447,Recruiting planned,,"[{'id_type': 'Universal Trial Number (UTN)', 'registry': None, 'secondary_id': 'U1111-1250-8875'}]","[{'document_type': 'Approval of ethics comm. (mandatory for transfer to Studybox)', 'link_to_document': 'https://www.drks.de/drks_web/AttachmentDownstreamServlet?ID=b9e5f46a-f347-48b2-90e3-fe4b70c1b05b&LOCALE=en&FILENAME=069_20 Enghard 2.pdf'}, {'document_type': 'trial protocol (mandatory for transfer to Studybox)', 'link_to_document': 'https://www.drks.de/drks_web/AttachmentDownstreamServlet?ID=1d92a04f-6b19-480d-a798-3202d917284d&LOCALE=en&FILENAME=Studienprotokoll CytoResc1.pdf'}]"
+1,DRKS00021420,Recruiting ongoing,,,"[{'document_type': 'trial protocol (mandatory for transfer to Studybox)', 'link_to_document': 'https://www.drks.de/drks_web/AttachmentDownstreamServlet?ID=575eb75e-6a49-456f-a8cc-2db0bbc02711&LOCALE=en&FILENAME=3_Protokoll.pdf'}]"
+2,DRKS00021527,Enrolling by invitation,,,
+3,DRKS00021573,Recruiting ongoing,,"[{'id_type': 'EudraCT-No. (for studies acc. to Drug Law)', 'registry': None, 'secondary_id': '2020-001470-30'}]",
+4,DRKS00021585,Recruiting ongoing,,,
+5,DRKS00021588,Recruiting ongoing,,,
+6,DRKS00021582,Recruiting planned,,,
+7,DRKS00021214,Recruiting ongoing,,,
+8,DRKS00021153,Recruiting ongoing,,,
+9,DRKS00021301,Recruiting ongoing,,,
+10,DRKS00021300,Recruiting ongoing,,"[{'id_type': 'Primary Registry-ID', 'registry': 'clinicaltrials.gov', 'secondary_id': 'NCT04324528'}, {'id_type': 'Other Secondary-ID', 'registry': 'Hauptstudie', 'secondary_id': 'DRKS00021248'}]",
+11,DRKS00021273,Recruiting ongoing,,,
+12,DRKS00022067,Recruiting planned,,,
+13,DRKS00022083,Recruiting ongoing,,,
+14,DRKS00021732,Recruiting planned,,"[{'id_type': 'EudraCT-No. (for studies acc. to Drug Law)', 'registry': None, 'secondary_id': '2020-001431-27'}]",
+15,DRKS00021706,Enrolling by invitation,,,
