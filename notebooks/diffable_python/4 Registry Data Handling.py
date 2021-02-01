@@ -62,6 +62,18 @@ merged['potential_other_results'] = np.where((filt_1 | filt_2), 1, 0)
 
 merged.head()
 
+# +
+#We originally collected "Dates of last enrollment" from the Brazilian REBEC registry as completion dates.
+#We later made a decision that since this was not consistent with our decisions for other registries
+#we would have to null these outs. Completion dates do not reliable exist on the Brazilian registry
+#so we cannot include them
+
+merged['scd'] = np.where(merged.trial_id.str.contains('RBR'), pd.NaT, pd.to_datetime(merged.scd))
+merged['scd'] = pd.to_datetime(merged['scd'])
+# -
+
+merged.head()
+
 merged.to_csv(parent + '/data/registry_data/registry_data_clean.csv')
 
 
