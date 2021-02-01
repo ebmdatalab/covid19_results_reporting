@@ -59,7 +59,7 @@ registry_data.head()
 
 # +
 #Taking only what we need to join
-reg_cols = ['trial_id', 'trial_status', 'pcd', 'scd', 'relevent_comp_date', 'tabular_results', 
+reg_cols = ['trial_id', 'trial_status', 'pcd', 'scd', 'relevant_comp_date', 'tabular_results', 
             'potential_other_results']
 
 
@@ -149,7 +149,7 @@ b = filtered.hit_tid.tolist()
 set(b) - set(a)
 
 # +
-df_final['relevent_comp_date'] = pd.to_datetime(df_final['relevent_comp_date'])
+df_final['relevant_comp_date'] = pd.to_datetime(df_final['relevant_comp_date'])
 
 df_final.columns
 
@@ -157,7 +157,7 @@ df_final.columns
 #Conditions for round inclusion:
 
 overall_inclusion = (df_final.included == 1)
-date_inclusion = (df_final.relevent_comp_date < pd.Timestamp(2020,7,1))
+date_inclusion = (df_final.relevant_comp_date < pd.Timestamp(2020,7,1))
 reg_or_pub = ((df_final.results_pub_type_1.notnull()) | (df_final.tabular_results == 1) | (df_final.potential_other_results == 1))
 
 

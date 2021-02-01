@@ -1,4 +1,4 @@
-,trial_id,trial_status,pcd,scd,reg_results_status,other_results_1,other_results_2,secondary_ids,countries,web_address,relevent_comp_date,tabular_results,potential_other_results
+,trial_id,trial_status,pcd,scd,reg_results_status,other_results_1,other_results_2,secondary_ids,countries,web_address,relevant_comp_date,tabular_results,potential_other_results
 0,NCT04246242,,,,,,,,,https://clinicaltrials.gov/show/NCT04246242,,0,0
 1,NCT04252885,Completed,2020-04-30,2020-05-31,No Results Posted,,,['GZ8H-V1.0 20200122'],,https://clinicaltrials.gov/show/NCT04252885,2020-04-30,0,0
 2,NCT04260594,Not yet recruiting,2020-07-01,2020-12-30,No Results Posted,,,['Abdrcspc202001'],,https://clinicaltrials.gov/show/NCT04260594,2020-07-01,0,0

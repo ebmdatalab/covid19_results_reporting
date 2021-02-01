@@ -46,8 +46,8 @@ merged['scd'] = pd.to_datetime(merged['scd'], errors='coerce')
 conditions = [merged.pcd.notnull(), (merged.pcd.isnull() & merged.scd.notnull()), (merged.pcd.isnull() & merged.scd.isnull())]
 choices = [merged.pcd, merged.scd, None]
 
-merged['relevent_comp_date'] = np.select(conditions, choices)
-merged['relevent_comp_date'] = pd.to_datetime(merged['relevent_comp_date'], errors='coerce')
+merged['relevant_comp_date'] = np.select(conditions, choices)
+merged['relevant_comp_date'] = pd.to_datetime(merged['relevant_comp_date'], errors='coerce')
 # -
 
 merged['tabular_results'] = np.where(merged.reg_results_status.isin(['Study Results', 'View results']), 1, 0)
@@ -71,8 +71,8 @@ merged.head()
 merged['scd'] = np.where(merged.trial_id.str.contains('RBR'), pd.NaT, pd.to_datetime(merged.scd))
 merged['scd'] = pd.to_datetime(merged['scd'])
 
-merged['relevent_comp_date'] = np.where(merged.trial_id.str.contains('RBR'), pd.NaT, pd.to_datetime(merged.relevent_comp_date))
-merged['relevent_comp_date'] = pd.to_datetime(merged['relevent_comp_date'])
+merged['relevant_comp_date'] = np.where(merged.trial_id.str.contains('RBR'), pd.NaT, pd.to_datetime(merged.relevant_comp_date))
+merged['relevant_comp_date'] = pd.to_datetime(merged['relevant_comp_date'])
 # -
 
 merged.head()
