@@ -358,7 +358,3 @@ print(f'{len(withdrawn)} are not listed as cancelled/withdrawn. We exclude {len(
 withdrawn.to_csv(parent + '/data/ictrp_with_exclusions_29Jul2020.csv')
 
 
-
-
-
-

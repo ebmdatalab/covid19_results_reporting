@@ -1352,7 +1352,7 @@
 1350,2020-001644-25,"['Ongoing', 'Ongoing', 'Ongoing', 'Ongoing']",,,(No results available),,,{'spon_id': 'D822FC00001/ACE-ID-201'},"['FR', 'DE', 'ES', 'SE']",,,0,0
 1351,2020-001573-78,['Ongoing'],,,(No results available),,,{'spon_id': '87RI20_0012'},['FR'],,,0,0
 1352,2020-001754-21,['Ongoing'],,,(No results available),,,{'spon_id': '2020-23'},['FR'],,,0,0
-1353,2020-001536-98,['Prematurely Ended'],,,(No results available),,,{'spon_id': 'PREPSARS'},['ES'],,,0,0
+1353,2020-001536-98,['Prematurely Ended'],,2020-04-27,(No results available),,,{'spon_id': 'PREPSARS'},['ES'],,2020-04-27,0,0
 1354,2020-001673-75,['Ongoing'],,,(No results available),,,{'spon_id': 'ABX464-401'},['FR'],,,0,0
 1355,2020-001497-30,"['Ongoing', 'Ongoing', 'Ongoing']",,,(No results available),,,{'spon_id': 'ALXN1210-COV-305'},"['GB', 'FR', 'ES']",,,0,0
 1356,2020-001739-28,['Ongoing'],,,(No results available),,,{'spon_id': 'S63979'},['BE'],,,0,0
@@ -1388,14 +1388,14 @@
 1386,2020-001310-38,['Ongoing'],,,(No results available),,,{'spon_id': 'CAPSID2020-DRK-BSD'},['DE'],,,0,0
 1387,2020-001257-51,['Temporarily Halted'],,,(No results available),,,{'spon_id': '220322020'},['DK'],,,0,0
 1388,2020-001363-85,['Prematurely Ended'],,,(No results available),,,{'spon_id': '60152610\u202c'},['DK'],,,0,0
-1389,2020-001270-29,"['Temporarily Halted', 'Prematurely Ended', 'Temporarily Halted', 'Temporarily Halted', 'Prematurely Ended']",,,(No results available),,,{'spon_id': 'EFC16858'},"['DK', 'CZ', 'DE', 'GB', 'FR']",,,0,0
+1389,2020-001270-29,"['Temporarily Halted', 'Prematurely Ended', 'Temporarily Halted', 'Temporarily Halted', 'Prematurely Ended']",,2020-06-25,(No results available),,,{'spon_id': 'EFC16858'},"['DK', 'CZ', 'DE', 'GB', 'FR']",,2020-06-25,0,0
 1390,2020-001376-15,['Ongoing'],,,(No results available),,,{'spon_id': 'VPM1002-DE-3.06CoV'},['DE'],,,0,0
 1391,2020-001411-25,"['Ongoing', 'Ongoing', 'Ongoing', 'Ongoing']",,,(No results available),,,{'spon_id': 'XPORT-COV-1001'},"['DE', 'AT', 'GB', 'ES']",,,0,0
 1392,2020-001498-63,['Ongoing'],,,(No results available),,,{'spon_id': 'BIO101-CL05'},['BE'],,,0,0
 1393,2020-001264-28,"['Ongoing', 'Ongoing', 'Ongoing', 'Ongoing']",,,(No results available),,,"{'nct_id': 'NCT04379271', 'spon_id': 'P2-IMU-838-COV'}","['DE', 'BG', 'GR', 'HU']",,,0,0
 1394,2020-001937-11,['Ongoing'],,,(No results available),,,{'spon_id': '132333'},['GB'],,,0,0
 1395,2020-001244-26,['Ongoing'],,,(No results available),,,{'spon_id': 'COV-2-SOLNATIDE-20'},['AT'],,,0,0
-1396,2020-001243-15,['Completed'],,,(No results available),,,{'spon_id': 'S63874'},['BE'],,,0,0
+1396,2020-001243-15,['Completed'],,2020-06-10,(No results available),,,{'spon_id': 'S63874'},['BE'],,2020-06-10,0,0
 1397,2020-001411-25,"['Ongoing', 'Ongoing', 'Ongoing', 'Ongoing']",,,(No results available),,,{'spon_id': 'XPORT-COV-1001'},"['DE', 'AT', 'GB', 'ES']",,,0,0
 1398,2020-001636-95,['Ongoing'],,,(No results available),,,{'spon_id': '282110'},['GB'],,,0,0
 1399,2020-001481-11,['Ongoing'],,,(No results available),,,"{'nct_id': 'NCT04338958', 'spon_id': 'RuxCoFlam'}",['DE'],,,0,0
@@ -1423,7 +1423,7 @@
 1421,2020-001795-15,['Ongoing'],,,(No results available),,,{'spon_id': 'COMBAT-19'},['IT'],,,0,0
 1422,2020-001854-23,['Ongoing'],,,(No results available),,,{'spon_id': 'AMMURAVID'},['IT'],,,0,0
 1423,2020-001558-23,['Ongoing'],,,(No results available),,,{'spon_id': 'COFID19-AIFA17/2020'},['IT'],,,0,0
-1424,ISRCTN14966673,Recruiting,,2021-04-01,,,,"{'eudract_number': 'Nil known', 'ctgov_number': 'Nil known', 'other_id': 'RHM MED1696, IRAS 280621'}",,http://isrctn.com/ISRCTN14966673,2021-04-01,0,0
+1424,ISRCTN14966673,Recruiting,,,,,,"{'eudract_number': 'Nil known', 'ctgov_number': 'Nil known', 'other_id': 'RHM MED1696, IRAS 280621'}",,http://isrctn.com/ISRCTN14966673,,0,0
 1425,ISRCTN14326006,Recruiting,,2022-01-30,,,,"{'eudract_number': 'Nil known', 'ctgov_number': 'Nil known', 'other_id': 'HEROs Protocol 1.1'}",,,2022-01-30,0,0
 1426,ISRCTN16912075,Recruiting,,2021-05-05,,,,"{'eudract_number': 'Nil known', 'ctgov_number': 'Nil known', 'other_id': 'Sponsor: 26/19-20, IRAS 282338'}",,http://isrctn.com/ISRCTN16912075,2021-05-05,0,0
 1427,ISRCTN13311119,No longer recruiting,,2020-06-26,,,,"{'eudract_number': 'Nil known', 'ctgov_number': 'Nil known', 'other_id': 'NV-05-943-2020'}",,http://isrctn.com/ISRCTN13311119,2020-06-26,0,0
