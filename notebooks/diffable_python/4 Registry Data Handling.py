@@ -70,6 +70,9 @@ merged.head()
 
 merged['scd'] = np.where(merged.trial_id.str.contains('RBR'), pd.NaT, pd.to_datetime(merged.scd))
 merged['scd'] = pd.to_datetime(merged['scd'])
+
+merged['relevent_comp_date'] = np.where(merged.trial_id.str.contains('RBR'), pd.NaT, pd.to_datetime(merged.relevent_comp_date))
+merged['relevent_comp_date'] = pd.to_datetime(merged['relevent_comp_date'])
 # -
 
 merged.head()
