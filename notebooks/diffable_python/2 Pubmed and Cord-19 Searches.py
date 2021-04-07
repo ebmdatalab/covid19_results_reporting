@@ -164,6 +164,8 @@ for p in covid_19_pmc:
 
 # +
 #The CORD-19 document parses are too big to fit in the GitHub repo so you need to download and add locally
+#All versions of the CORD-19 database can be accessed here: 
+#https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html
 path_pre = parent + '/data/cord_19/document_parses/'
 
 pdfs = os.listdir(path_pre + 'pdf_json')

@@ -16,6 +16,9 @@ tqdm
 # Both these required for plotly+notebooks
 plotly
 ipywidgets
+
+
+# Add extra per-notebook packages here
 text-unidecode
 xlrd
 xmltodict
@@ -23,5 +26,7 @@ beautifulsoup4
 pymed
 requests
 lxml
-
-# Add extra per-notebook packages here
+schemdraw
+lifelines
+matplotlib_venn
+pillow
