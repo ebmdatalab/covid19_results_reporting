@@ -1,31 +1,26 @@
-#EBM DataLab's skeleton notebook environment
+# DIssemination of REgistered COVID-19 Clinical Trials (DIRECCT)
 
-## Getting started with this skeleton project
+This repo contains Python code for data collection, cleaning, and analysis for Phase 1 of the DIRECCT project along with intermediary datasets.
 
-This is a skeleton project for creating a reproducible, cross-platform
-analysis notebook, using Docker.  It also includes:
+For additional project code in R see: https://github.com/maia-sh/direcct
 
-* configuration for `jupytext`, to support easier code review
-* cross-platform startup scripts
-* best practice folder structure and documentation
+## Docker Details
 
-Developers and analysts using this skeleton for new development should
-refer to [`DEVELOPERS.md`](DEVELOPERS.md) for instructions on getting
-started.  Update this `README.md` so it is a suitable introduction to
-your project.
+This repo includes a Docker container with the environment necessary to run all included code.
 
-If you have not yet installed Docker, please see the [`INSTALLATION_GUIDE.md`](INSTALLATION_GUIDE.md)
+Details on installing Docker, please see the [`INSTALLATION_GUIDE.md`](INSTALLATION_GUIDE.md)
 
-## How to view the notebooks
+## Project Code
 
-Notebooks live in the `notebooks/` folder (with an `ipynb`
-extension). You can most easily view them [on
-nbviewer](https://nbviewer.jupyter.org/github/ebmdatalab/<repo>/tree/master/notebooks/),
-though looking at them in Github should also work.
+The project code lives in six notebooks in the `Notebooks` folder.
 
-To do development work, you'll need to set up a local jupyter server
-and git repository - see `DEVELOPERS.md` for more detail.
+1. Data Cleaning - This notebook takes the ICTRP collection of COVID-19 registered trials and cleans it, accounts for known cross-registrations, and adds some additional data manually extracted from free-text fields. Also produces a preliminarily filtered version of the dataset to be used for scraping in Notebook 3
+2. PubMed and Cord-19 Searches - This notebook conducts a pubmed search and then searches the results and the [CORD-19](https://www.semanticscholar.org/cord19/download) database for references to trial ids or registries. Note, the CORD-19 dataset is too big to fit in the repo but historic archives of the dataset are maintained at https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html
+3. Registry Scraping - Includes the code necessary to scrape various registries for key information not provided in the ICTRP.
+4. Registry Data Hanlding - Gets the data from the registry scrapes into a usable format.
+5. Final Data Combining - Bringing all the datasets together into a single dataset. This Notebook has largely been replaced with equivalent R code in our other [project repo](https://github.com/maia-sh/direcct) but we maintain an archive here.
+6. Analyses and Figures - Survival analysis and some figure creation is implement in this Notebook. Additional analysis done in our [R repo](https://github.com/maia-sh/direcct). 
 
 ## How to cite
 
-XXX Please change to either a paper (if published) or the repo. You may find it helpful to use Zenodo DOI (see [`DEVELOPERS.md`](DEVELOPERS.md#how-to-invite-people-to-cite) for further information)
+Please cite our paper when available. Our dataset can also be cited, available [here](https://www.doi.org/10.5281/zenodo.4669937).
