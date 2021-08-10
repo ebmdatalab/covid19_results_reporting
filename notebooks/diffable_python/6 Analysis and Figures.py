@@ -107,7 +107,7 @@ any_pub['publication_any'] = any_pub['publication_any'].astype(int)
 any_pub['time_publication_any'] = np.where(any_pub['time_publication_any'] < 0, 0, any_pub['time_publication_any'])
 
 # +
-yticks = list(np.arange(0,.4,.05))
+yticks = list(np.arange(0,1.05,.05))
 fig = plt.figure(dpi=300)
 ax = plt.subplot()
 
@@ -137,7 +137,7 @@ article_pub['publication_article'] = article_pub['publication_article'].astype(i
 article_pub['time_publication_article'] = np.where(article_pub['time_publication_article'] < 0, 0, article_pub['time_publication_article'])
 
 # +
-yticks = list(np.arange(0,.3,.05))
+yticks = list(np.arange(0,1.05,.05))
 fig = plt.figure(dpi=300)
 ax = plt.subplot()
 
@@ -186,7 +186,7 @@ plt.show()
 # +
 figsize = (20,20)
 
-yticks = list(np.arange(0, .4, .05))
+yticks = list(np.arange(0, .75, .05))
 fig = plt.figure(dpi=200)
 fig.suptitle("Time to Results Across Dissemination Routes", x=.5, y=1.05, fontsize=25)
 
@@ -198,6 +198,7 @@ kmf_any.plot_cumulative_density(ci_show=True, show_censors=True, censor_styles={
 plt.ylabel('Proportion Reported', labelpad=10, fontsize=14)
 plt.xlabel('Days From Completion', labelpad=10, fontsize=14)
 plt.title('Time to Any Results Dissemination', pad=15, fontsize=18)
+plt.yticks(yticks)
 
 ax1.tick_params(labelsize=14)
 add_at_risk_counts(kmf_any, labels=[''], rows_to_show = ['At risk'], ax=ax1, fontsize=14)
@@ -211,6 +212,7 @@ kmf_article.plot_cumulative_density(ci_show=True, show_censors=True, censor_styl
 plt.ylabel('Proportion Reported', labelpad=10, fontsize=14)
 plt.xlabel('Days From Completion', labelpad=10, fontsize=14)
 plt.title('Time to Journal Publication', pad=15, fontsize=18)
+plt.yticks(yticks)
 
 ax2.tick_params(labelsize=14)
 add_at_risk_counts(kmf_article, labels=[''], rows_to_show = ['At risk'], ax=ax2, fontsize=14)
@@ -227,6 +229,7 @@ plt.plot(d.index, d['CIF_1'], '|', markersize=12, color='C0', markeredgecolor='#
 plt.ylabel('Proportion Reported', labelpad=10, fontsize=14)
 plt.xlabel('Days From Completion', labelpad=10, fontsize=14)
 plt.title('Time to Preprint Publication', pad=15, fontsize=18)
+plt.yticks(yticks)
 
 ax3.tick_params(labelsize=14)
 add_at_risk_counts(aj, labels=[''], rows_to_show = ['At risk'], ax=ax3, fontsize=14)
@@ -234,7 +237,7 @@ add_at_risk_counts(aj, labels=[''], rows_to_show = ['At risk'], ax=ax3, fontsize
 plt.subplots_adjust(hspace=.2)
 plt.tight_layout()
 plt.show()
-fig.savefig('Figures/km_curves.jpeg')
+#fig.savefig('Figures/km_curves.jpeg')
 # -
 
 # # 3 month follow-up data
@@ -246,7 +249,7 @@ any_pub_3['publication_any'] = any_pub_3['publication_any'].astype(int)
 any_pub_3[any_pub_3 < 0] = 0
 
 # +
-yticks = list(np.arange(0,.4,.1))
+yticks = list(np.arange(0,.75,.1))
 fig = plt.figure(dpi=300)
 ax = plt.subplot()
 
@@ -259,45 +262,49 @@ ax = kmf_3mo.plot_cumulative_density(ci_show=True, show_censors=True, censor_sty
 plt.title("Time To Results Dissemination From Registered Completion Date - Extended Follow-up", pad=20, fontsize=20)
 plt.ylabel('Proportion Reported', labelpad=10, fontsize=14)
 plt.xlabel('Days to Any Result from Registered Completion', labelpad=10, fontsize=14)
+plt.yticks(yticks)
 ax.tick_params(labelsize=12)
 
 from lifelines.plotting import add_at_risk_counts
 add_at_risk_counts(kmf_3mo, rows_to_show = ['At risk'], ax=ax, fontsize=12)
 plt.tight_layout()
-plt.savefig('Figures/extended_km.jpeg')
+#plt.savefig('Figures/extended_km.jpeg')
 # -
 
 # # Flowchart - Inclusion/Exclusion
 
 # +
 d = schemdraw.Drawing()
+bw = 7
+bh =2
+
 total = d.add(flow.Box(w=10, h=2, label= 'Registered COVID-19 Studies on ICTRP\n(N=3,844)'))
 d.add(flow.Arrow('down', l=11))
 d.add(flow.Arrow('right', at=(0, -3.5)))
-cross_reg = d.add(flow.Box(w=6.5, h=2, label=f'Known Cross-Registrations\n(n={3844-3749})', anchor='W'))
+cross_reg = d.add(flow.Box(w=bw, h=bh, label=f'Known Cross-Registrations\n(n={3844-3749})', anchor='W'))
 d.add(flow.Arrow('right', at=(0, -6)))
-pre2020 = d.add(flow.Box(w=6.5, h=2, label='Registered Prior to 2020\n(n=18)', anchor='W'))
+pre2020 = d.add(flow.Box(w=bw, h=bh, label='Registered Prior to 2020\n(n=18)', anchor='W'))
 d.add(flow.Arrow('right', at=(0,-8.5)))
-non_int = d.add(flow.Box(w=6.5, h=2, label='Not Interventional\n(n=1,565)', anchor='W'))
+non_int = d.add(flow.Box(w=bw, h=bh, label='Not Interventional\n(n=1,565)', anchor='W'))
 d.add(flow.Arrow('right', at=(0,-11)))
-withdrawn = d.add(flow.Box(w=6.5, h=2, label='Withdrawn on ICTRP\n(n=45)', anchor='W'))
+withdrawn = d.add(flow.Box(w=bw, h=bh, label='Withdrawn on ICTRP\n(n=45)', anchor='W'))
 
 auto_total = d.add(flow.Box(w=10, h=2, at=(0,-13), label='Passed Automated Inclusion\n(n=2121)'))
 d.add(flow.Arrow('down', l=13))
 d.add(flow.Arrow('right', at=(0, -16.5)))
-completed = d.add(flow.Box(w=6.5, h=2, label='Completion > 30 June 2020\n(n=1724)', anchor='W'))
+completed = d.add(flow.Box(w=bw, h=bh, label='Completion > 30 June 2020\n(n=1,724)', anchor='W'))
 d.add(flow.Arrow('right', at=(0, -19)))
-not_trial = d.add(flow.Box(w=6.5, h=2, label='Not a Clincial Trial\n(n=22)', anchor='W'))
+not_trial = d.add(flow.Box(w=bw, h=bh, label='Not a Clincial Trial\n(n=22)', anchor='W'))
 d.add(flow.Arrow('right', at=(0, -21.5)))
-not_covid = d.add(flow.Box(w=6.5, h=2, label='Not on Treatment/Prevention\n(n=83)', anchor='W'))
+not_covid = d.add(flow.Box(w=bw, h=bh, label='Not on Treatment/Prevention\n(n=83)', anchor='W'))
 d.add(flow.Arrow('right', at=(0, -24)))
-withdrawn_2 = d.add(flow.Box(w=6.5, h=2, label='Withdrawn on Manual Review\n(n=5)', anchor='W'))
+withdrawn_2 = d.add(flow.Box(w=bw, h=bh, label='Withdrawn on Manual Review\n(n=5)', anchor='W'))
 d.add(flow.Arrow('right', at=(0, -26.5)))
-man_dupes = d.add(flow.Box(w=6.5, h=2, label='Manual De-duplication\n(n=2)', anchor='W'))
+man_dupes = d.add(flow.Box(w=bw, h=bh, label='Manual De-duplication\n(n=2)', anchor='W'))
 
 final_total = d.add(flow.Box(w=10, h=2, at=(0,-28), label='Final Dataset\n(n=285)'))
 
-d.save('Figures/flowchart_covid_2021.jpeg', dpi=300)
+#d.save('Figures/flowchart_covid_2021.jpeg', dpi=300)
 d.draw()
 # -
 
@@ -321,10 +328,32 @@ d.add(flow.Arrow('right', at=(0,-16)))
 excluded = d.add(flow.Box(w=6.5, h=2, label='Publication identified\nas retrosepctive\n(n=1)', anchor='W'))
 final_total = d.add(flow.Box(w=10, h=2, at=(0,-18), label='Results Included\n(n=47)'))
 
-d.save('Figures/results_flowchart_covid_2021.jpeg', dpi=300)
+#d.save('Figures/results_flowchart_covid_2021.jpeg', dpi=300)
 d.draw()
 # -
+# # Venn Diagram
+
+# +
+colors = ['#377eb8', '#ff7f00', '#4daf4a','#f781bf', '#a65628', '#984ea3', '#999999', '#e41a1c', '#dede00']
+labels = ['Journal Articles', 'Registry Results', 'Preprints']
+values = (14, 2, 0, 21, 4, 0, 0)
 
 
+# +
+plt.figure(figsize=(8,8), dpi=300)
+v1 = venn3(
+    subsets = values, 
+    set_labels = labels,
+    set_colors = colors, 
+    subset_label_formatter = lambda x: str(x) + "\n(" + f"{(x/sum(values)):1.2%}" + ")", 
+    alpha = .6)
+
+for text in v1.set_labels:
+    text.set_fontsize(9)
+
+venn3_circles((14, 2, 0, 21, 4, 0, 0))
+plt.title('COVID-19 Clinical Trial Results by Dissemination Route', fontweight='bold')
+#plt.savefig('Figures/venn_diagram.jpeg')
+# -
 
 
